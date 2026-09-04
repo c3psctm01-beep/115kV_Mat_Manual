@@ -1,0 +1,6 @@
+# Scratch / temporary scripts
+scratch/
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db

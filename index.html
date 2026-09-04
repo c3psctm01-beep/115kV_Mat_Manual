@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEA 115 kV Material Hub | คู่มือพัสดุอุปกรณ์ก่อสร้างสายส่ง 115 เควี การไฟฟ้าส่วนภูมิภาค</title>
+  <meta name="description" content="ระบบสืบค้นและศึกษาพัสดุอุปกรณ์ก่อสร้างสายส่ง 115 เควี การไฟฟ้าส่วนภูมิภาค (PEA) ค้นหารหัสพัสดุ สเปก การใช้งาน และดูแผ่นคู่มือมาตรฐานความละเอียดสูง">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class="theme-light">
+  <!-- Top PEA Banner Bar -->
+  <header class="pea-header">
+    <div class="header-inner container">
+      <div class="brand-group">
+        <div class="pea-logo-emblem">
+          <svg viewBox="0 0 100 100" class="pea-svg-logo" aria-label="PEA Emblem">
+            <circle cx="50" cy="50" r="46" fill="#742284" stroke="#FDB913" stroke-width="4"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#FFFFFF" stroke-dasharray="3 3" stroke-width="1.5"/>
+            <path d="M50 18 L60 38 L82 38 L65 52 L72 74 L50 60 L28 74 L35 52 L18 38 L40 38 Z" fill="#FDB913" opacity="0.3"/>
+            <!-- Lightning bolt / Transmission tower symbol -->
+            <path d="M47 22 L36 48 L48 48 L44 76 L64 44 L52 44 Z" fill="#FDB913" stroke="#FFFFFF" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-title">
+            <span class="pea-tag">PEA 115 kV</span>
+            <span class="hub-text">MATERIAL HUB</span>
+          </div>
+          <div class="brand-subtitle">ระบบสืบค้นพัสดุอุปกรณ์ก่อสร้างสายส่งแรงสูง 115 เควี การไฟฟ้าส่วนภูมิภาค</div>
+        </div>
+      </div>
+
+      <!-- Header Action Utilities -->
+      <div class="header-actions">
+        <button id="btn-quick-quiz" class="btn-action" title="แบบทดสอบความรู้และบัตรคำ">
+          <span class="icon">🎓</span>
+          <span class="btn-label">ทดสอบความรู้</span>
+        </button>
+        <button id="btn-compare-open" class="btn-action" title="เปรียบเทียบอุปกรณ์">
+          <span class="icon">⚖️</span>
+          <span class="btn-label">เปรียบเทียบ</span>
+          <span id="compare-badge" class="badge-count hidden">0</span>
+        </button>
+        <button id="btn-cart-open" class="btn-action btn-primary" title="รายการเบิกพัสดุ (BOM)">
+          <span class="icon">📋</span>
+          <span class="btn-label">ใบเบิกพัสดุ</span>
+          <span id="cart-badge" class="badge-count">0</span>
+        </button>
+        <button id="btn-theme-toggle" class="btn-icon" title="สลับโหมดมืด/สว่าง" aria-label="Toggle Theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero & Document Info Banner -->
+  <section class="hero-banner">
+    <div class="container hero-content">
+      <div class="hero-text-block">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span>
+          <span>เอกสารมาตรฐานสายส่ง ฉบับปรับปรุง 2562</span>
+        </div>
+        <h1 class="hero-heading">คู่มืออุปกรณ์ไฟฟ้าสำหรับการก่อสร้างสายส่ง 115 เควี</h1>
+        <p class="hero-desc">
+          จัดทำโดย <strong>กองมาตรฐานระบบไฟฟ้า (กมฟ.)</strong> ร่วมกับ <strong>กองบริหารและจัดการคลังพัสดุ 4 (กคพ.4)</strong>
+          เพื่อความสะดวกรวดเร็วในการปฏิบัติงาน เบิกจ่าย และติดตั้งอุปกรณ์ได้อย่างถูกต้องตามแบบมาตรฐาน กฟภ.
+        </p>
+
+        <!-- KPI Metrics Grid -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-num" id="stat-total-items">98</div>
+            <div class="kpi-label">รายการอุปกรณ์หลัก</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num" id="stat-total-categories">9</div>
+            <div class="kpi-label">หมวดหมู่งานก่อสร้าง</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num">111</div>
+            <div class="kpi-label">หน้าคู่มือคมชัดระดับ HD</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num">100%</div>
+            <div class="kpi-label">รหัสพัสดุระบบ SAP กฟภ.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Manual Page Jump Card -->
+      <div class="manual-quick-jump">
+        <div class="quick-jump-card">
+          <div class="quick-jump-header">
+            <span class="icon">📖</span>
+            <span>เปิดหน้าคู่มือต้นฉบับโดยตรง</span>
+          </div>
+          <div class="quick-jump-body">
+            <label for="input-page-jump">ระบุเลขหน้าคู่มือ (1 - 111):</label>
+            <div class="input-with-button">
+              <input type="number" id="input-page-jump" min="1" max="111" value="6" placeholder="หน้า...">
+              <button id="btn-go-page" class="btn-pea">เปิดดู</button>
+            </div>
+            <div class="quick-links">
+              <button class="link-btn" data-page="1">หน้าปก</button>
+              <button class="link-btn" data-page="4">สารบัญ</button>
+              <button class="link-btn" data-page="6">เสา คอร.</button>
+              <button class="link-btn" data-page="72">ลูกถ้วยคอมโพสิต</button>
+              <button class="link-btn" data-page="99">แอร์เบรกสวิตช์</button>
+              <button class="link-btn" data-page="103">สาย OPGW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Nav Bar -->
+  <nav class="category-nav-section">
+    <div class="container">
+      <div class="section-title-sm">
+        <span>เลือกหมวดหมู่พัสดุ (9 หมวดหลัก)</span>
+        <button id="btn-clear-cat" class="btn-link-reset active">ดูพัสดุทั้งหมด (<span id="count-all-items">98</span>)</button>
+      </div>
+      <div class="category-pills-wrap" id="category-pills-container">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search, Filter & Control Toolbar -->
+  <main class="container main-catalog-area">
+    <div class="catalog-toolbar">
+      <div class="search-box-wrap">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="ค้นหาชื่อไทย, ชื่ออังกฤษ, รหัสพัสดุ (เช่น 1000010006), เลขที่แบบ..." 
+          autocomplete="off"
+        >
+        <button id="btn-clear-search" class="btn-clear-search hidden" title="ล้างคำค้นหา">✕</button>
+        <div class="search-hotkey-badge" title="กดปุ่ม / เพื่อค้นหา">/</div>
+      </div>
+
+      <div class="filters-wrap">
+        <!-- Storage Filter -->
+        <div class="select-group">
+          <label for="filter-storage">การจัดเก็บ:</label>
+          <select id="filter-storage">
+            <option value="all">ทั้งหมด</option>
+            <option value="ลานกลางแจ้ง">ลานกลางแจ้ง</option>
+            <option value="คลังในร่ม">คลังในร่ม (โปร่ง/ทึบ)</option>
+          </select>
+        </div>
+
+        <!-- Sort By -->
+        <div class="select-group">
+          <label for="sort-by">เรียงตาม:</label>
+          <select id="sort-by">
+            <option value="page-asc">ลำดับหน้าคู่มือ (1 ➔ 111)</option>
+            <option value="page-desc">ลำดับหน้าคู่มือ (111 ➔ 1)</option>
+            <option value="name-asc">ชื่อพัสดุ (ก ➔ ฮ)</option>
+            <option value="eng-asc">ชื่อภาษาอังกฤษ (A ➔ Z)</option>
+          </select>
+        </div>
+
+        <!-- View Mode Toggle -->
+        <div class="view-mode-toggles">
+          <button id="btn-view-grid" class="btn-toggle active" title="มุมมองการ์ด (Grid View)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/>
+            </svg>
+          </button>
+          <button id="btn-view-table" class="btn-toggle" title="มุมมองตาราง (Table View)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Search Filter Pills / Result Summary -->
+    <div class="results-meta-bar">
+      <div class="results-count-text">
+        แสดง <strong id="visible-count">98</strong> จากทั้งหมด 98 รายการ
+        <span id="filter-status-tag" class="filter-status-tag hidden"></span>
+      </div>
+      <div class="quick-helpers">
+        <button id="btn-show-bookmarks" class="helper-pill">
+          <span>⭐ รายการที่บันทึกไว้</span>
+          <span id="bookmark-badge" class="count">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Catalog Grid View -->
+    <div id="catalog-grid" class="materials-grid">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Catalog Table View (Hidden by default) -->
+    <div id="catalog-table-wrap" class="materials-table-wrap hidden">
+      <table class="materials-table" id="materials-table">
+        <thead>
+          <tr>
+            <th style="width: 70px;">รูปภาพ</th>
+            <th style="width: 70px;">หน้า</th>
+            <th>หมวดหมู่</th>
+            <th>ชื่อพัสดุอุปกรณ์ / ชื่อภาษาอังกฤษ</th>
+            <th>รหัสพัสดุ (SAP Code) / สเปก</th>
+            <th>การจัดเก็บ</th>
+            <th style="width: 170px; text-align: center;">การดำเนินการ</th>
+          </tr>
+        </thead>
+        <tbody id="materials-table-body">
+          <!-- Injected via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Empty Results Fallback -->
+    <div id="empty-state" class="empty-state hidden">
+      <div class="empty-icon">🔍</div>
+      <h3>ไม่พบพัสดุอุปกรณ์ที่ตรงกับเงื่อนไข</h3>
+      <p>กรุณาลองเปลี่ยนคำค้นหา หรือกดล้างตัวกรองเพื่อดูรายการทั้งหมด</p>
+      <button id="btn-reset-filters" class="btn-pea">ล้างตัวกรองทั้งหมด</button>
+    </div>
+  </main>
+
+  <!-- ============================================== -->
+  <!-- MODAL 1: HD Manual Page Viewer & Detail Sheet  -->
+  <!-- ============================================== -->
+  <div id="detail-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-full">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <span class="modal-cat-badge" id="modal-cat-tag">หมวด 1 เสาไฟฟ้า</span>
+          <h2 id="modal-title-thai">เสาคอนกรีตอัดแรง (คอร.)</h2>
+          <div class="modal-title-eng" id="modal-title-eng">PRESTRESSED CONCRETE POLE</div>
+        </div>
+        <div class="modal-header-actions">
+          <div class="page-stepper">
+            <button id="btn-prev-page" class="btn-step" title="หน้าก่อนหน้า (Page Up)">‹ หน้าก่อน</button>
+            <span class="page-indicator" id="modal-page-num">หน้า 6 / 111</span>
+            <button id="btn-next-page" class="btn-step" title="หน้าถัดไป (Page Down)">หน้าถัดไป ›</button>
+          </div>
+          <button id="btn-close-modal" class="btn-close" title="ปิด (Esc)">✕</button>
+        </div>
+      </div>
+
+      <div class="modal-body split-layout">
+        <!-- LEFT: Interactive HD Page Viewer -->
+        <div class="page-viewer-column">
+          <div class="viewer-controls">
+            <span class="viewer-title">แผ่นคู่มือมาตรฐานฉบับจริง (HD)</span>
+            <div class="viewer-btn-group">
+              <button id="btn-zoom-in" class="btn-ctrl" title="ซูมเข้า (+)">➕</button>
+              <button id="btn-zoom-out" class="btn-ctrl" title="ซูมออก (-)">➖</button>
+              <button id="btn-zoom-fit" class="btn-ctrl" title="พอดีหน้าจอ">🗖 พอดี</button>
+              <button id="btn-zoom-100" class="btn-ctrl" title="ขนาดจริง 100%">1:1</button>
+              <button id="btn-open-hd-tab" class="btn-ctrl" title="เปิดรูปในแท็บใหม่">↗ ขยายเต็มจอ</button>
+            </div>
+          </div>
+          <div class="viewer-viewport" id="viewer-viewport">
+            <div class="zoom-pan-container" id="zoom-container">
+              <img id="modal-full-img" src="" alt="Official Manual Page" class="hd-manual-img">
+            </div>
+            <div class="viewer-hint">💡 ลากเมาส์เพื่อแพนภาพ (Pan) หรือใช้ลูกกลิ้งเมาส์เพื่อซูม (Scroll Zoom)</div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Extracted Structured Specification Panel -->
+        <div class="spec-details-column">
+          <!-- Equipment Photo Card -->
+          <div class="detail-photo-card">
+            <div class="photo-title-sm">ภาพอุปกรณ์จริงจากคู่มือ</div>
+            <img id="modal-thumb-img" src="" alt="Equipment Photo" class="detail-thumb-large">
+          </div>
+
+          <!-- Specifications Table -->
+          <div class="spec-section">
+            <h3 class="section-subheading">
+              <span class="icon">📊</span>
+              <span>รายการขนาดและรหัสพัสดุ (SAP Code)</span>
+            </h3>
+            <div class="spec-table-container">
+              <table class="spec-data-table">
+                <thead>
+                  <tr>
+                    <th>ลำดับ</th>
+                    <th>ขนาด / คุณลักษณะ</th>
+                    <th>พัสดุเลขที่ (SAP Code)</th>
+                    <th style="width: 80px; text-align: center;">จัดการ</th>
+                  </tr>
+                </thead>
+                <tbody id="modal-spec-tbody">
+                  <!-- Injected via JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Usage & Construction Guidelines -->
+          <div class="spec-section">
+            <h3 class="section-subheading">
+              <span class="icon">🛠️</span>
+              <span>การประกอบใช้งาน & แบบอ้างอิง</span>
+            </h3>
+            <div class="usage-content-box" id="modal-usage-content">
+              <!-- Injected via JavaScript -->
+            </div>
+          </div>
+
+          <!-- Storage Guidelines -->
+          <div class="spec-section">
+            <h3 class="section-subheading">
+              <span class="icon">📦</span>
+              <span>การจัดเก็บพัสดุ</span>
+            </h3>
+            <div class="storage-content-box" id="modal-storage-content">
+              <!-- Injected via JavaScript -->
+            </div>
+          </div>
+
+          <!-- Quick Actions Footer -->
+          <div class="spec-footer-actions">
+            <button id="modal-btn-add-cart" class="btn-pea btn-large">
+              <span class="icon">➕</span>
+              <span>เพิ่มในใบเบิกพัสดุ</span>
+            </button>
+            <button id="modal-btn-compare" class="btn-secondary btn-large">
+              <span class="icon">⚖️</span>
+              <span>เปรียบเทียบ</span>
+            </button>
+            <button id="modal-btn-bookmark" class="btn-icon-large" title="บันทึกรายการโปรด">
+              <span class="bm-icon">⭐</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- DRAWER: Requisition Cart / BOM Management      -->
+  <!-- ============================================== -->
+  <div id="cart-drawer-overlay" class="drawer-overlay hidden">
+    <div class="cart-drawer">
+      <div class="drawer-header">
+        <div class="drawer-title-group">
+          <span class="icon">📋</span>
+          <div>
+            <h3>รายการเตรียมเบิกพัสดุ (BOM)</h3>
+            <p class="drawer-sub">จัดเตรียมรายการพัสดุก่อสร้างสายส่ง 115 kV</p>
+          </div>
+        </div>
+        <button id="btn-close-cart" class="btn-close">✕</button>
+      </div>
+
+      <div class="drawer-body">
+        <div id="cart-items-list" class="cart-items-list">
+          <!-- Injected via JavaScript -->
+        </div>
+        <div id="cart-empty-state" class="cart-empty">
+          <div class="empty-cart-icon">🛒</div>
+          <p>ยังไม่มีรายการพัสดุในใบเบิก</p>
+          <small>กดปุ่ม "+ เพิ่มในใบเบิก" ที่รายการอุปกรณ์เพื่อจัดเตรียมรายการ</small>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+        <div class="cart-summary-row">
+          <span>จำนวนรายการทั้งหมด:</span>
+          <strong id="cart-summary-items">0 รายการ</strong>
+        </div>
+        <div class="cart-summary-row">
+          <span>จำนวนชิ้นรวม:</span>
+          <strong id="cart-summary-qty">0 ชิ้น/ชุด</strong>
+        </div>
+
+        <div class="drawer-actions">
+          <button id="btn-export-csv" class="btn-pea btn-block">
+            <span class="icon">📥</span>
+            <span>ส่งออกเป็น Excel (CSV)</span>
+          </button>
+          <button id="btn-print-cart" class="btn-secondary btn-block">
+            <span class="icon">🖨️</span>
+            <span>พิมพ์ใบรายการเบิกพัสดุ</span>
+          </button>
+          <button id="btn-clear-cart" class="btn-danger-outline btn-block">
+            <span>ล้างรายการทั้งหมด</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- MODAL 2: Material Comparison Matrix            -->
+  <!-- ============================================== -->
+  <div id="compare-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <span class="icon">⚖️</span>
+          <h2>เปรียบเทียบคุณสมบัติพัสดุอุปกรณ์ (Material Comparison)</h2>
+        </div>
+        <button id="btn-close-compare" class="btn-close">✕</button>
+      </div>
+      <div class="modal-body compare-body" id="compare-matrix-content">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button id="btn-clear-compare" class="btn-secondary">ล้างการเปรียบเทียบ</button>
+        <button id="btn-close-compare-footer" class="btn-pea">ปิดหน้าต่าง</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- MODAL 3: Knowledge Quiz & Flashcards           -->
+  <!-- ============================================== -->
+  <div id="quiz-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-md">
+      <div class="modal-header">
+        <div class="modal-header-title">
+          <span class="icon">🎓</span>
+          <h2>ศูนย์ทดสอบและฝึกฝนความรู้พัสดุ 115 kV</h2>
+        </div>
+        <button id="btn-close-quiz" class="btn-close">✕</button>
+      </div>
+      
+      <!-- Mode Tabs -->
+      <div class="quiz-tabs">
+        <button id="tab-flashcards" class="quiz-tab active">🃏 โหมดบัตรคำ (Flashcards)</button>
+        <button id="tab-quiz" class="quiz-tab">❓ โหมดแบบทดสอบ 4 ตัวเลือก</button>
+      </div>
+
+      <div class="modal-body quiz-body">
+        <!-- Tab 1: Flashcards -->
+        <div id="quiz-view-flashcards" class="flashcard-view">
+          <div class="flashcard-card" id="flashcard-card">
+            <div class="flashcard-inner" id="flashcard-inner">
+              <!-- Front -->
+              <div class="flashcard-front">
+                <div class="fc-badge">ภาพอุปกรณ์</div>
+                <img id="fc-img" src="" alt="Flashcard Front" class="fc-photo">
+                <div class="fc-hint">แตะเพื่อดูเฉลยชื่อและรหัสพัสดุ 🔄</div>
+              </div>
+              <!-- Back -->
+              <div class="flashcard-back">
+                <div class="fc-badge fc-badge-back">ข้อมูลพัสดุ</div>
+                <h3 id="fc-thai-name">ชื่ออุปกรณ์</h3>
+                <div class="fc-eng-name" id="fc-eng-name">ENGLISH NAME</div>
+                <div class="fc-cat" id="fc-cat">หมวดหมู่</div>
+                <div class="fc-codes-box" id="fc-codes">รหัสพัสดุ</div>
+                <div class="fc-storage" id="fc-storage">การจัดเก็บ</div>
+              </div>
+            </div>
+          </div>
+          <div class="fc-nav">
+            <button id="fc-prev" class="btn-step">‹ ก่อนหน้า</button>
+            <span id="fc-counter" class="fc-counter">1 / 98</span>
+            <button id="fc-next" class="btn-step">ถัดไป ›</button>
+          </div>
+        </div>
+
+        <!-- Tab 2: Quiz -->
+        <div id="quiz-view-test" class="quiz-test-view hidden">
+          <div class="quiz-score-bar">
+            <span>คำถามข้อที่ <strong id="quiz-curr-q">1</strong>/10</span>
+            <span>คะแนนปัจจุบัน: <strong id="quiz-curr-score">0</strong> คะแนน</span>
+          </div>
+          <div class="quiz-q-box">
+            <img id="quiz-q-img" src="" alt="Quiz Question" class="quiz-q-photo">
+            <div class="quiz-q-text" id="quiz-q-text">ภาพนี้คือพัสดุอุปกรณ์ชนิดใดในระบบสายส่ง 115 kV?</div>
+          </div>
+          <div class="quiz-options-grid" id="quiz-options-grid">
+            <!-- Injected via JavaScript -->
+          </div>
+          <div id="quiz-feedback-box" class="quiz-feedback hidden"></div>
+          <div class="quiz-footer-actions">
+            <button id="btn-next-q" class="btn-pea hidden">ข้อถัดไป ›</button>
+            <button id="btn-restart-quiz" class="btn-secondary hidden">เริ่มทำใหม่อีกครั้ง</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Print Sheet Container (Visible only during printing) -->
+  <div id="print-sheet-container" class="print-sheet hidden">
+    <div class="print-header">
+      <h2>การไฟฟ้าส่วนภูมิภาค (PEA)</h2>
+      <h3>ใบรายการขอเบิกพัสดุอุปกรณ์ก่อสร้างสายส่ง 115 เควี (Material Requisition Sheet)</h3>
+      <p>อ้างอิงตาม: คู่มืออุปกรณ์ไฟฟ้าสำหรับการก่อสร้างสายส่งแรงสูง 115 KV (ฉบับปรับปรุง 2562)</p>
+      <div class="print-date">วันที่พิมพ์: <span id="print-date-text"></span></div>
+    </div>
+    <table class="print-table">
+      <thead>
+        <tr>
+          <th>ลำดับ</th>
+          <th>รหัสพัสดุ (SAP Code)</th>
+          <th>รายการพัสดุอุปกรณ์</th>
+          <th>ขนาด / รายละเอียด</th>
+          <th>หมวดหมู่</th>
+          <th>หน้าคู่มือ</th>
+          <th>จำนวน</th>
+          <th>หน่วย</th>
+        </tr>
+      </thead>
+      <tbody id="print-table-body">
+        <!-- Injected via JavaScript -->
+      </tbody>
+    </table>
+    <div class="print-signature-area">
+      <div class="sig-box">
+        <p>ผู้ขอเบิก .....................................................</p>
+        <p>( ..................................................... )</p>
+        <p>ตำแหน่ง .....................................................</p>
+      </div>
+      <div class="sig-box">
+        <p>ผู้อนุมัติ .....................................................</p>
+        <p>( ..................................................... )</p>
+        <p>ตำแหน่ง .....................................................</p>
+      </div>
+      <div class="sig-box">
+        <p>ผู้จ่ายพัสดุ .....................................................</p>
+        <p>( ..................................................... )</p>
+        <p>ตำแหน่ง .....................................................</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="app_data/materials_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3377 @@
+{
+  "title": "คู่มืออุปกรณ์ไฟฟ้าสำหรับการก่อสร้างสายส่งแรงสูง 115 KV (ฉบับปรับปรุง 2562)",
+  "publisher": "การไฟฟ้าส่วนภูมิภาค (PEA) - กองมาตรฐานระบบไฟฟ้า (กมฟ.) & กองบริหารและจัดการคลังพัสดุ 4 (กคพ.4)",
+  "totalPages": 111,
+  "totalItems": 98,
+  "categories": [
+    {
+      "id": 1,
+      "name": "หมวดเสาไฟฟ้า",
+      "nameEn": "Poles",
+      "icon": "zap",
+      "description": "เสาคอนกรีตอัดแรง (คอร.), เสาเหล็ก 8 เหลี่ยม และเสาโครงเหล็ก (Steel Tower) สำหรับระบบสายส่ง 115 kV",
+      "pageRange": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": 2,
+      "name": "หมวดคอนสาย",
+      "nameEn": "Crossarms",
+      "icon": "git-commit",
+      "description": "คอนเหล็กรูปรางน้ำ, คอนเหล็กฉาก, คอนท้าวแขน (Alley Arm) สำหรับรองรับชุดพวงลูกถ้วยและสายไฟฟ้า",
+      "pageRange": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": 3,
+      "name": "หมวดอุปกรณ์ยึดคอนสาย",
+      "nameEn": "Crossarm Hardware & Fasteners",
+      "icon": "tool",
+      "description": "เหล็กประกับคอน, แผ่นเหล็กยึดปลาย, สลักเกลียว Machine Bolt, สลักเกลียวเกลียวตลอด, สลักเกลียวห่วง และแหวนรอง",
+      "pageRange": [
+        17,
+        30
+      ]
+    },
+    {
+      "id": 4,
+      "name": "หมวดเสาเข็ม และชุดยึดโยง",
+      "nameEn": "Piles & Guy Wires",
+      "icon": "anchor",
+      "description": "เสาเข็ม คอร., ฐานรากตอม่อ, สลักโมบัท, สลักห่วง 45°, ก้านสมอบก, ทิมเบิ้ลอายนัท, ยูแคลมป์ และปรีฟอร์มกายกริพ",
+      "pageRange": [
+        31,
+        46
+      ]
+    },
+    {
+      "id": 5,
+      "name": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "nameEn": "Shielding & Grounding",
+      "icon": "shield",
+      "description": "ลวดเหล็กตีเกลียว, สายทองแดงเปลือย, เหล็กรับสายล่อฟ้า Bayonet, กราวด์วายแคลมป์, หลักดิน Ground Rod, ชุดเชื่อม Exothermic",
+      "pageRange": [
+        47,
+        66
+      ]
+    },
+    {
+      "id": 6,
+      "name": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "nameEn": "Insulators & Hardware",
+      "icon": "layers",
+      "description": "ลูกถ้วยพอร์ซเลน, ลูกถ้วยแก้วเหนียว, ลูกถ้วยคอมโพสิต 115 kV, ลูกถ้วยโพสท์, ข้อต่อ ANSI, แคลมป์แขวน, สเตรนแคลมป์, แคลมป์เข้าปลายสายบีบ",
+      "pageRange": [
+        67,
+        87
+      ]
+    },
+    {
+      "id": 7,
+      "name": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "nameEn": "Conductors & Accessories",
+      "icon": "activity",
+      "description": "สายอะลูมิเนียมเปลือย/แกนเหล็ก, อาร์เมอร์ร็อด, สเปเซอร์แยกสายคู่, หลอดต่อสายรับแรงดึง, ลูกบอลแสดงแนวสาย, ไวเบรชั่นแดมเปอร์",
+      "pageRange": [
+        88,
+        97
+      ]
+    },
+    {
+      "id": 8,
+      "name": "หมวดอุปกรณ์ป้องกัน และสวิตช์",
+      "nameEn": "Protection & Switches",
+      "icon": "power",
+      "description": "แอร์เบรกสวิตช์ 115 kV (ABS), โหลดเบรกสวิตช์ (LBS) และเซอร์กิตสวิตช์เชอร์ (Circuit Switcher)",
+      "pageRange": [
+        98,
+        101
+      ]
+    },
+    {
+      "id": 9,
+      "name": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "nameEn": "OPGW Cables & Accessories",
+      "icon": "radio",
+      "description": "สาย OPGW ใยแก้วนำแสง 24 Cores, อาร์เมอร์กริพ OPGW, พี.จี. คอนเนคเตอร์, กล่องต่อสาย Joint Box, ชุดรองรับม้วนสาย, ไวเบรชั่นแดมเปอร์",
+      "pageRange": [
+        102,
+        111
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-006",
+      "page": 6,
+      "catId": 1,
+      "thaiName": "เสาคอนกรีตอัดแรง (คอร.)",
+      "engName": "PRESTRESSED CONCRETE POLE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "14.00 ม.",
+          "weight": "1,950 กก.",
+          "moment": "3,590 กก.-ม.",
+          "code": "1000010006"
+        },
+        {
+          "item": 2,
+          "size": "14.30 ม.",
+          "weight": "2,015 กก.",
+          "moment": "9,000 กก.-ม.",
+          "code": "1000010013"
+        },
+        {
+          "item": 3,
+          "size": "16.00 ม.",
+          "weight": "2,590 กก.",
+          "moment": "5,300 กก.-ม.",
+          "code": "1000010008"
+        },
+        {
+          "item": 4,
+          "size": "22.00 ม.",
+          "weight": "6,450 กก.",
+          "moment": "18,000 กก.-ม.",
+          "code": "1000010016"
+        }
+      ],
+      "usage": "1. เสาขนาด 14.00-14.30 ม. ใช้งานกรณีก่อสร้างบนเขาและพาดผ่านเหว\n2. เสาขนาด 16.00 ม. ใช้งานกรณีก่อสร้างเป็นไลน์ชั่วคราว เพื่อรอปรับปรุงเป็นโครงสร้างตามมาตรฐานต่อไป\n3. เสาขนาด 22.00 ม. ชนิดมีกราวด์เพลทในเสา 2 ด้าน ใช้งานกรณีทั่วไป",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เสาไฟฟ้า",
+        "คอร",
+        "concrete pole",
+        "14m",
+        "16m",
+        "22m",
+        "1000010006",
+        "1000010016"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p006.jpg",
+      "fullPageImg": "app_data/pages/page_006.jpg",
+      "categoryName": "หมวดเสาไฟฟ้า",
+      "categoryNameEn": "Poles"
+    },
+    {
+      "id": "mat-007",
+      "page": 7,
+      "catId": 1,
+      "thaiName": "เสาเหล็กชนิด 8 เหลี่ยม",
+      "engName": "OCTAGONAL STEEL POLE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ความยาว 20.00 ม.",
+          "moment": "40,000 กก.-ม.",
+          "code": "1000060001"
+        },
+        {
+          "item": 2,
+          "size": "ความยาว 24.00 ม.",
+          "moment": "50,000 กก.-ม.",
+          "code": "1000060000"
+        }
+      ],
+      "usage": "1. ความยาว 20.00 ม. ดูแบบเลขที่ SA1-015/60001 โดยใช้ป้องกันเสาล้มเนื่องจากพายุ ช่วงร่องลม และพื้นที่ที่ไม่สามารถก่อสร้างฐานรากและเสา คอร. รวมทั้งใช้งานแทนเสา คอร. แบบคู่ เป็นต้น\n2. ความยาว 24.00 ม. ดูแบบเลขที่ SA1-015/55001 โดยใช้เพิ่มระยะห่างระหว่างเสาได้สูงสุด 120 ม. เพื่อป้องกันรถชนเสา เพื่อเพิ่มระยะห่างในแนวดิ่ง ป้องกันเสาล้มเนื่องจากพายุ ช่วงร่องลม พื้นที่ที่ไม่สามารถก่อสร้างฐานรากและเสา คอร. รวมทั้งใช้งานแทนเสา คอร. แบบคู่ เป็นต้น",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เสาเหล็ก",
+        "8 เหลี่ยม",
+        "octagonal",
+        "steel pole",
+        "20m",
+        "24m",
+        "1000060001",
+        "1000060000",
+        "SA1-015/60001",
+        "SA1-015/55001"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p007.jpg",
+      "fullPageImg": "app_data/pages/page_007.jpg",
+      "categoryName": "หมวดเสาไฟฟ้า",
+      "categoryNameEn": "Poles"
+    },
+    {
+      "id": "mat-008",
+      "page": 8,
+      "catId": 1,
+      "thaiName": "เสาโครงเหล็ก",
+      "engName": "STEEL TOWER",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับทางตรง",
+          "drawing": "SA1-015/45006 ( 5702 )",
+          "code": "-"
+        },
+        {
+          "item": 2,
+          "size": "สำหรับทางโค้ง 90°",
+          "drawing": "SA1-015/45007 ( 5703 )",
+          "code": "-"
+        }
+      ],
+      "usage": "1. เสาโครงเหล็กสำหรับทางตรง ใช้งานที่ระยะช่วงเสาไม่เกิน 360 ม. มุมเบี่ยงเบนไม่เกิน 1° และมีระบบจำหน่าย 22&33 kV ใต้ไลน์ 115 kV ไม่เกิน 2 วงจร\n2. เสาโครงเหล็กสำหรับทางโค้ง 90° ใช้งานที่ระยะช่วงเสาไม่เกิน 150 ม. และมีระบบจำหน่าย 22&33 kV ใต้ไลน์ 115 kV ไม่เกิน 2 วงจร\n3. เสาโครงเหล็กทั้งสองแบบ ดูข้อกำหนดการใช้งานเพิ่มเติมแบบเลขที่ SA1-015/45005 (การประกอบเลขที่ 5701)",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เสาโครงเหล็ก",
+        "steel tower",
+        "tower",
+        "SA1-015/45006",
+        "SA1-015/45007",
+        "ทางตรง",
+        "ทางโค้ง"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p008.jpg",
+      "fullPageImg": "app_data/pages/page_008.jpg",
+      "categoryName": "หมวดเสาไฟฟ้า",
+      "categoryNameEn": "Poles"
+    },
+    {
+      "id": "mat-010",
+      "page": 10,
+      "catId": 2,
+      "thaiName": "เหล็กรูปรางน้ำ ขนาด 100x50x5 มม. ยาว 2,250 มม. มอก. 1227",
+      "engName": "STEEL CHANNEL, 100x50x5 mm 2,250 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "100x50x5 มม. ยาว 2,250 มม.",
+          "standard": "มอก. 1227",
+          "code": "1010000100"
+        }
+      ],
+      "usage": "ใช้รับชุดพวงลูกถ้วยและสายไฟฟ้า ลักษณะวงจรเดี่ยว สายไฟฟ้าเดี่ยวและคู่ (SS และ SD)",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "คอนสาย",
+        "เหล็กรางน้ำ",
+        "steel channel",
+        "100x50x5",
+        "2250mm",
+        "1010000100",
+        "SS",
+        "SD"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p010.jpg",
+      "fullPageImg": "app_data/pages/page_010.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-011",
+      "page": 11,
+      "catId": 2,
+      "thaiName": "เหล็กรูปรางน้ำ ขนาด 100x50x5 มม. ยาว 4,200 มม. มอก. 1227",
+      "engName": "STEEL CHANNEL, 100x50x5 mm 4,200 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "100x50x5 มม. ยาว 4,200 มม.",
+          "standard": "มอก. 1227",
+          "code": "1010000103"
+        }
+      ],
+      "usage": "ใช้รับชุดพวงลูกถ้วยและสายไฟฟ้า ลักษณะ\n1) วงจรเดี่ยว สายไฟฟ้าเดี่ยวและคู่ (SS และ SD)\n2) วงจรคู่ สายไฟฟ้าเดี่ยวและคู่ (DS และ DD)",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "คอนสาย",
+        "เหล็กรางน้ำ",
+        "steel channel",
+        "100x50x5",
+        "4200mm",
+        "1010000103",
+        "DS",
+        "DD",
+        "SS",
+        "SD"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p011.jpg",
+      "fullPageImg": "app_data/pages/page_011.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-012",
+      "page": 12,
+      "catId": 2,
+      "thaiName": "เหล็กรูปรางน้ำแบบท้าวแขน ขนาด 150x75x9 มม. ยาว 3,000 มม. มอก. 1227",
+      "engName": "STEEL CHANNEL, ALLEY ARM, 150x75x9 mm, 3,000 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "150x75x9 มม. ยาว 3,000 มม.",
+          "standard": "มอก. 1227",
+          "code": "1000120004"
+        }
+      ],
+      "usage": "ใช้รับชุดพวงลูกถ้วยและสายไฟฟ้า สำหรับโครงสร้างแบบ SS-AS-4 และ SD-AS-3",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "คอนท้าวแขน",
+        "alley arm",
+        "steel channel",
+        "150x75x9",
+        "3000mm",
+        "1000120004",
+        "SS-AS-4",
+        "SD-AS-3"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p012.jpg",
+      "fullPageImg": "app_data/pages/page_012.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-013",
+      "page": 13,
+      "catId": 2,
+      "thaiName": "เหล็กรูปรางน้ำ มอก. 1227",
+      "engName": "STEEL CHANNEL, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 150x75x6.5 ยาว 4,500 มม.",
+          "code": "1010000302"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 150x75x6.5 ยาว 6,000 มม.",
+          "code": "1010000303"
+        }
+      ],
+      "usage": "ใช้รับชุดพวงลูกถ้วยและสายไฟฟ้า สำหรับโครงสร้างพิเศษเฉพาะงาน",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กรางน้ำ",
+        "steel channel",
+        "150x75x6.5",
+        "4500mm",
+        "6000mm",
+        "1010000302",
+        "1010000303"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p013.jpg",
+      "fullPageImg": "app_data/pages/page_013.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-014",
+      "page": 14,
+      "catId": 2,
+      "thaiName": "เหล็กรูปรางน้ำ ขนาด 200x80x7.5 มม. ยาว 1,000 มม. มอก. 1227",
+      "engName": "STEEL CHANNEL, 200x80x7.5 mm, 1,000 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "200x80x7.5 มม. ยาว 1,000 มม.",
+          "standard": "มอก. 1227",
+          "code": "1010000400"
+        }
+      ],
+      "usage": "ใช้ประกอบเสา คอร. สองต้นเข้าด้วยกันเป็นแบบเสาคู่",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กรางน้ำ",
+        "เสาคู่",
+        "steel channel",
+        "200x80x7.5",
+        "1000mm",
+        "1010000400"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p014.jpg",
+      "fullPageImg": "app_data/pages/page_014.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-015",
+      "page": 15,
+      "catId": 2,
+      "thaiName": "เหล็กฉาก ขนาด 150x150x12 มม. ยาว 4,500 มม. มอก. 1227",
+      "engName": "ANGLE STEEL, 150x150x12 mm, 4,500 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "150x150x12 มม. ยาว 4,500 มม.",
+          "standard": "มอก. 1227",
+          "code": "1000120002"
+        }
+      ],
+      "usage": "ใช้ประกอบแบบคอนคู่ สำหรับการเข้าปลายสายสองข้าง",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กฉาก",
+        "คอนคู่",
+        "angle steel",
+        "150x150x12",
+        "4500mm",
+        "1000120002"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p015.jpg",
+      "fullPageImg": "app_data/pages/page_015.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-016",
+      "page": 16,
+      "catId": 2,
+      "thaiName": "เหล็กฉาก ขนาด 65x65x6 มม. ยาว 1,000 มม. มอก. 1227",
+      "engName": "ANGLE STEEL, 65x65x6 mm, 1,000 mm LONG, TIS 1227",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "65x65x6 มม. ยาว 1,000 มม.",
+          "standard": "มอก. 1227",
+          "code": "1010010000"
+        }
+      ],
+      "usage": "ใช้ประกอบต่อสายล่อฟ้าหรือสาย OPGW ที่เสา คอร. คู่",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กฉาก",
+        "ล่อฟ้า",
+        "OPGW",
+        "angle steel",
+        "65x65x6",
+        "1000mm",
+        "1010010000"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p016.jpg",
+      "fullPageImg": "app_data/pages/page_016.jpg",
+      "categoryName": "หมวดคอนสาย",
+      "categoryNameEn": "Crossarms"
+    },
+    {
+      "id": "mat-018",
+      "page": 18,
+      "catId": 3,
+      "thaiName": "เหล็กประกับคอน",
+      "engName": "BRACE, FLAT FOR CROSSARM",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 40x6x1,000 มม.",
+          "code": "1010200002"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 50x10x1,950 มม.",
+          "code": "1010200003"
+        }
+      ],
+      "usage": "ใช้ประกอบกับคอนสายระบบ 69 และ 115 kV",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กประกับคอน",
+        "brace",
+        "flat brace",
+        "1010200002",
+        "1010200003"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p018.jpg",
+      "fullPageImg": "app_data/pages/page_018.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-019",
+      "page": 19,
+      "catId": 3,
+      "thaiName": "เหล็กประกับคอนสายแบบท้าวแขน ขนาด 50x50x6 มม. ยาว 1,000 มม.",
+      "engName": "BRACE, ALLEY ARM, 50x50x6 mm 1,000 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 50x50x6 มม. ยาว 1,000 มม.",
+          "code": "1010200009"
+        }
+      ],
+      "usage": "ใช้ประกอบกับคอนสายระบบ 69 และ 115 kV ลักษณะวงจรเดี่ยว สายไฟฟ้าเดี่ยวและคู่",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กประกับคอน",
+        "ท้าวแขน",
+        "brace alley arm",
+        "50x50x6",
+        "1010200009"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p019.jpg",
+      "fullPageImg": "app_data/pages/page_019.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-020",
+      "page": 20,
+      "catId": 3,
+      "thaiName": "เหล็กฉากรับคอนสาย",
+      "engName": "BRACE, ANGLE STEEL",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ช่วงกว้าง 1,500 มม. ดรอพ 440 มม.",
+          "code": "1010200006"
+        },
+        {
+          "item": 2,
+          "size": "ช่วงกว้าง 1,800 มม. ดรอพ 450 มม.",
+          "code": "1010200007"
+        }
+      ],
+      "usage": "1 ใช้ประกอบกับคอนสายระบบ 69 kV (ปัจจุบันไม่จัดหามาใช้งานอีก)\n2 ใช้ประกอบกับคอนสายวัสดุเลขที่ 1010000103 ระบบ 69 และ 115 kV",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กฉากรับคอนสาย",
+        "brace angle steel",
+        "1500mm",
+        "1800mm",
+        "1010200006",
+        "1010200007"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p020.jpg",
+      "fullPageImg": "app_data/pages/page_020.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-021",
+      "page": 21,
+      "catId": 3,
+      "thaiName": "แผ่นเหล็กยึดปลาย",
+      "engName": "PLATE, STEEL, DOUBLE ARMING",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 12x100x650 มม.",
+          "code": "1010030100"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 12x100x760 มม.",
+          "code": "1010030102"
+        }
+      ],
+      "usage": "ใช้ประกอบคอนสายแบบเหล็กรูปรางน้ำและเหล็กฉาก เพื่อติดตั้งลูกถ้วยแขวนลักษณะเข้าปลายสาย",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "แผ่นเหล็กยึดปลาย",
+        "double arming",
+        "plate",
+        "12x100x650",
+        "12x100x760",
+        "1010030100",
+        "1010030102"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p021.jpg",
+      "fullPageImg": "app_data/pages/page_021.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-022",
+      "page": 22,
+      "catId": 3,
+      "thaiName": "แผ่นเหล็ก",
+      "engName": "PLATE, STEEL",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 6x100x450 มม.",
+          "code": "1010030002"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 6x100x750 มม.",
+          "code": "1010030004"
+        }
+      ],
+      "usage": "ใช้ประกอบคอนสายแบบเหล็กรูปรางน้ำและเหล็กฉากสองชิ้นเข้าด้วยกันเป็นลักษณะคอนคู่",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "แผ่นเหล็ก",
+        "plate steel",
+        "คอนคู่",
+        "6x100x450",
+        "6x100x750",
+        "1010030002",
+        "1010030004"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p022.jpg",
+      "fullPageImg": "app_data/pages/page_022.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-023",
+      "page": 23,
+      "catId": 3,
+      "thaiName": "ท่อเหล็ก มอก. 277 ประเภทที่ 2 แต่ไม่มีเกลียวที่ปลาย",
+      "engName": "PIPE, STEEL, TIS 277, TYPE 2, BUT WITHOUT THREADED END",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดระบุ 20 มม. ยาว 100 มม.",
+          "code": "1010050000"
+        },
+        {
+          "item": 2,
+          "size": "ขนาดระบุ 20 มม. ยาว 150 มม.",
+          "code": "1010050002"
+        }
+      ],
+      "usage": "ใช้สำหรับคั่นแผ่นเหล็กแบน 2 ชิ้น เข้าด้วยกัน บนคอนสายเหล็กรูปรางน้ำ เพื่อติดตั้งลูกถ้วยแขวนแนวดิ่ง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ท่อเหล็ก",
+        "pipe steel",
+        "มอก 277",
+        "spacer pipe",
+        "1010050000",
+        "1010050002"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p023.jpg",
+      "fullPageImg": "app_data/pages/page_023.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-024",
+      "page": 24,
+      "catId": 3,
+      "thaiName": "สลักเกลียว",
+      "engName": "BOLT, MACHINE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16x130 มม.",
+          "code": "1010110200"
+        },
+        {
+          "item": 2,
+          "size": "M 16x170 มม.",
+          "code": "1010110201"
+        },
+        {
+          "item": 3,
+          "size": "M 16x200 มม.",
+          "code": "1010110202"
+        },
+        {
+          "item": 4,
+          "size": "M 16x250 มม.",
+          "code": "1010110203"
+        },
+        {
+          "item": 5,
+          "size": "M 16x300 มม.",
+          "code": "1010110204"
+        },
+        {
+          "item": 6,
+          "size": "M 16x350 มม.",
+          "code": "1010110205"
+        },
+        {
+          "item": 7,
+          "size": "M 16x400 มม.",
+          "code": "1010110206"
+        },
+        {
+          "item": 8,
+          "size": "M 16x450 มม.",
+          "code": "1010110207"
+        },
+        {
+          "item": 9,
+          "size": "M 16x500 มม.",
+          "code": "1010110208"
+        },
+        {
+          "item": 10,
+          "size": "M 16x600 มม.",
+          "code": "1010110209"
+        }
+      ],
+      "usage": "ใช้ยึดติดตั้งอุปกรณ์กับเสาโครงสร้างสายส่ง 115 เควี",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียว",
+        "โบลท์",
+        "bolt machine",
+        "M16",
+        "1010110200",
+        "1010110209"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p024.jpg",
+      "fullPageImg": "app_data/pages/page_024.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-025",
+      "page": 25,
+      "catId": 3,
+      "thaiName": "สลักเกลียวเกลียวตลอด",
+      "engName": "BOLT, DOUBLE ARMING",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16 x 400 มม.",
+          "code": "1010120000"
+        },
+        {
+          "item": 2,
+          "size": "M 16 x 450 มม.",
+          "code": "1010120001"
+        },
+        {
+          "item": 3,
+          "size": "M 16 x 500 มม.",
+          "code": "1010120002"
+        },
+        {
+          "item": 4,
+          "size": "M 16 x 600 มม.",
+          "code": "1010120004"
+        }
+      ],
+      "usage": "ใช้ประกอบยึดจับคอนคู่",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียวเกลียวตลอด",
+        "double arming bolt",
+        "M16",
+        "1010120000",
+        "1010120004"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p025.jpg",
+      "fullPageImg": "app_data/pages/page_025.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-026",
+      "page": 26,
+      "catId": 3,
+      "thaiName": "สลักเกลียวห่วงกลม",
+      "engName": "BOLT, ROUND EYE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16x200 มม. (T = 150 มม.)",
+          "code": "1010140001"
+        },
+        {
+          "item": 2,
+          "size": "M 16x250 มม. (T = 200 มม.)",
+          "code": "1010140002"
+        },
+        {
+          "item": 3,
+          "size": "M 16x300 มม. (T = 250 มม.)",
+          "code": "1010140003"
+        }
+      ],
+      "usage": "ใช้ประกอบกับสายล่อฟ้า",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียวห่วงกลม",
+        "round eye bolt",
+        "M16",
+        "สายล่อฟ้า",
+        "1010140001"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p026.jpg",
+      "fullPageImg": "app_data/pages/page_026.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-027",
+      "page": 27,
+      "catId": 3,
+      "thaiName": "สลักเกลียวห่วงวงรี (แนวดิ่ง)",
+      "engName": "BOLT, OVAL EYE (VERTICAL)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16x150 มม.",
+          "code": "1010150000"
+        },
+        {
+          "item": 2,
+          "size": "M 16x200 มม.",
+          "code": "1010150001"
+        }
+      ],
+      "usage": "ติดตั้งบนคอนสายเพื่อประกอบกับลูกถ้วยแขวนในแนวดิ่ง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียวห่วงวงรี",
+        "oval eye bolt",
+        "แนวดิ่ง",
+        "ลูกถ้วยแขวน",
+        "M16",
+        "1010150000"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p027.jpg",
+      "fullPageImg": "app_data/pages/page_027.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-028",
+      "page": 28,
+      "catId": 3,
+      "thaiName": "สลักเกลียวห่วงวงรี (แนวนอน)",
+      "engName": "BOLT, OVAL EYE (HORIZONTAL)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 20x350 มม.",
+          "code": "1010150100"
+        },
+        {
+          "item": 2,
+          "size": "M 20x450 มม.",
+          "code": "1010150101"
+        }
+      ],
+      "usage": "ติดตั้งที่เสาไฟฟ้าเพื่อประกอบกับลูกถ้วยแขวนในแนวนอน",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียวห่วงวงรี",
+        "oval eye bolt",
+        "แนวนอน",
+        "M20",
+        "1010150100",
+        "1010150101"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p028.jpg",
+      "fullPageImg": "app_data/pages/page_028.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-029",
+      "page": 29,
+      "catId": 3,
+      "thaiName": "แหวนสี่เหลี่ยมแบน มอก. 258",
+      "engName": "WASHER, SQUARE, FLAT, TIS 258",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 52x52x4.5 มม. รู 18 มม.",
+          "usageDesc": "ใช้รองรับหัว และนัทของสลักเกลียว M 16",
+          "code": "1010180100"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 62x62x6 มม. รู 22 มม.",
+          "usageDesc": "ใช้รองรับหัว และนัทของสลักเกลียว M 20",
+          "code": "1010180101"
+        }
+      ],
+      "usage": "1. ใช้รองรับหัว และนัทของสลักเกลียว M 16\n2. ใช้รองรับหัว และนัทของสลักเกลียว M 20",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "แหวนสี่เหลี่ยม",
+        "washer square flat",
+        "มอก 258",
+        "M16",
+        "M20",
+        "1010180100",
+        "1010180101"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p029.jpg",
+      "fullPageImg": "app_data/pages/page_029.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-030",
+      "page": 30,
+      "catId": 3,
+      "thaiName": "แหวนสปริง มอก. 259",
+      "engName": "WASHER, LOCK, TIS 259",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16",
+          "code": "1010180301"
+        },
+        {
+          "item": 2,
+          "size": "M 20",
+          "code": "1010180302"
+        }
+      ],
+      "usage": "ใช้ประกอบกับสลักเกลียวป้องกันการคลายหลวมของนัท สำหรับสลักเกลียวขนาดต่างๆ",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "แหวนสปริง",
+        "washer lock",
+        "มอก 259",
+        "M16",
+        "M20",
+        "1010180301",
+        "1010180302"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p030.jpg",
+      "fullPageImg": "app_data/pages/page_030.jpg",
+      "categoryName": "หมวดอุปกรณ์ยึดคอนสาย",
+      "categoryNameEn": "Crossarm Hardware & Fasteners"
+    },
+    {
+      "id": "mat-032",
+      "page": 32,
+      "catId": 4,
+      "thaiName": "เสาเข็ม คอร.",
+      "engName": "PRESTRESSED CONCRETE PILE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "0.44x0.44x8.50 ม. โมเมนต์ใช้งาน 10,000 กก.-ม.",
+          "code": "1000030000"
+        },
+        {
+          "item": 2,
+          "size": "0.44x0.44x8.50 ม. พร้อมเหล็กเสริมที่หัวเสา โมเมนต์ 10,000 กก.-ม.",
+          "code": "1000030001"
+        },
+        {
+          "item": 3,
+          "size": "0.44x0.44x8.50 ม. พร้อมสายดินและหลักสายดิน โมเมนต์ 10,000 กก.-ม.",
+          "code": "1000030002"
+        },
+        {
+          "item": 4,
+          "size": "0.44x0.44x8.50 ม. พร้อมเหล็กเสริม สายดิน และหลักสายดิน โมเมนต์ 10,000 กก.-ม.",
+          "code": "1000030003"
+        },
+        {
+          "item": 5,
+          "size": "0.44x0.44x8.50 ม. โมเมนต์ใช้งาน 14,000 กก.-ม.",
+          "code": "1000030008"
+        },
+        {
+          "item": 6,
+          "size": "0.44x0.44x8.50 ม. พร้อมเหล็กเสริมที่หัวเสา โมเมนต์ 14,000 กก.-ม.",
+          "code": "1000030009"
+        },
+        {
+          "item": 7,
+          "size": "0.44x0.44x8.50 ม. พร้อมสายดินและหลักสายดิน โมเมนต์ 14,000 กก.-ม.",
+          "code": "1000030010"
+        },
+        {
+          "item": 8,
+          "size": "0.44x0.44x8.50 ม. พร้อมเหล็กเสริม สายดิน และหลักสายดิน โมเมนต์ 14,000 กก.-ม.",
+          "code": "1000030011"
+        }
+      ],
+      "usage": "ใช้ตอกเป็นฐานรากเสาในบริเวณที่ดินรับน้ำหนักได้น้อย เพื่อเสริมความมั่นคงของเสาส่ง 115 kV",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เสาเข็ม",
+        "คอร",
+        "concrete pile",
+        "0.44x0.44x8.50",
+        "1000030000",
+        "1000030008"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p032.jpg",
+      "fullPageImg": "app_data/pages/page_032.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-033",
+      "page": 33,
+      "catId": 4,
+      "thaiName": "การประกอบใช้งานเสาเข็มฐานราก",
+      "engName": "INSTALLATION OF FOUNDATION PILE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ฐานรากเสาเข็มสำหรับเสา 115 kV",
+          "condition": "กำลังรับน้ำหนักดิน < 12 ตัน/ตร.ม.",
+          "code": "-"
+        }
+      ],
+      "usage": "ใช้ในกรณีดินสามารถรับน้ำหนักปลอดภัยได้น้อยกว่า 12 ตัน/ตร.ม. โดยใช้เสาเข็ม คอร. ตอกรองรับฐานรากเสาตามแบบมาตรฐาน",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ฐานราก",
+        "เสาเข็ม",
+        "การประกอบ",
+        "foundation",
+        "pile installation"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p033.jpg",
+      "fullPageImg": "app_data/pages/page_033.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-034",
+      "page": 34,
+      "catId": 4,
+      "thaiName": "สลักโมบัท M 24, 1,600 มม.",
+      "engName": "BOLT, STUB M 24, 1,600 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 24 ยาว 1,600 มม.",
+          "code": "1010160004"
+        }
+      ],
+      "usage": "ใช้ประกอบติดตั้งฐานรากเสา แบบใช้เสาตอม่อระบบสายส่ง 115 เควี",
+      "storage": "ลานกลางแจ้ง/คลังโปร่ง",
+      "tags": [
+        "สลักโมบัท",
+        "stub bolt",
+        "M24",
+        "1600mm",
+        "1010160004",
+        "ฐานราก",
+        "เสาตอม่อ"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p034.jpg",
+      "fullPageImg": "app_data/pages/page_034.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-035",
+      "page": 35,
+      "catId": 4,
+      "thaiName": "สลักห่วงแบบธรรมดาเดี่ยว M 16X350 มม.",
+      "engName": "BOLT, STRAND EYE, SINGLE M 16X350 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16X350 มม.",
+          "code": "1010210200"
+        }
+      ],
+      "usage": "ใช้ประกอบการต่อสายล่อฟ้า หรือสายยึดโยง แบบทางตรง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักห่วง",
+        "strand eye bolt",
+        "single",
+        "M16x350",
+        "1010210200"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p035.jpg",
+      "fullPageImg": "app_data/pages/page_035.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-036",
+      "page": 36,
+      "catId": 4,
+      "thaiName": "สลักห่วงแบบธรรมดาเดี่ยว 45° (แบบ D-6)",
+      "engName": "BOLT, STRAND EYE, SINGLE 45° (TYPE D-6)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16x250 มม.",
+          "code": "1010210201"
+        },
+        {
+          "item": 2,
+          "size": "M 16x350 มม.",
+          "code": "1010210202"
+        }
+      ],
+      "usage": "ใช้ประกอบการยึดโยง แบบ D-6",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักห่วง 45 องศา",
+        "strand eye 45",
+        "D-6",
+        "M16",
+        "1010210201",
+        "1010210202"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p036.jpg",
+      "fullPageImg": "app_data/pages/page_036.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-037",
+      "page": 37,
+      "catId": 4,
+      "thaiName": "สลักห่วงแบบธรรมดาเดี่ยว 45° (แบบ D-7)",
+      "engName": "BOLT, STRAND EYE, SINGLE 45° (TYPE D-7)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 20x350 มม.",
+          "code": "1010210203"
+        },
+        {
+          "item": 2,
+          "size": "M 20x400 มม.",
+          "code": "1010210204"
+        }
+      ],
+      "usage": "ใช้ประกอบการยึดโยง แบบ D-7",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักห่วง 45 องศา",
+        "strand eye 45",
+        "D-7",
+        "M20",
+        "1010210203",
+        "1010210204"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p037.jpg",
+      "fullPageImg": "app_data/pages/page_037.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-038",
+      "page": 38,
+      "catId": 4,
+      "thaiName": "ก้านสมอบกแบบห่วงกลม M 16 ยาว 2,000 มม.",
+      "engName": "ROD, ANCHOR, ROUND EYE M 16, 2,000 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16 ยาว 2,000 มม.",
+          "wireSize": "ขนาด 50 ตร.มม. 1 เส้น/ก้าน",
+          "code": "1010210000"
+        }
+      ],
+      "usage": "ใช้ติดตั้งสายยึดโยง ขนาด 50 ตร.มม. จำนวน 1 เส้น/ก้าน ดังรายละเอียด D-9",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ก้านสมอบก",
+        "anchor rod",
+        "M16",
+        "2000mm",
+        "1010210000",
+        "D-9",
+        "ยึดโยง"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p038.jpg",
+      "fullPageImg": "app_data/pages/page_038.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-039",
+      "page": 39,
+      "catId": 4,
+      "thaiName": "ก้านสมอบกแบบห่วงสองร่อง M 24 ยาว 2,500 มม.",
+      "engName": "ROD, ANCHOR, DOUBLE STRANDED EYE M 24, 2,500 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 24 ยาว 2,500 มม.",
+          "wireSize": "ขนาด 95 ตร.มม. 2 เส้น/ก้าน",
+          "code": "1010210004"
+        }
+      ],
+      "usage": "ใช้ติดตั้งสายยึดโยง ขนาด 95 ตร.มม. จำนวน 2 เส้น/ก้าน ดังรายละเอียด D-9",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ก้านสมอบกสองร่อง",
+        "anchor rod double",
+        "M24",
+        "2500mm",
+        "1010210004",
+        "D-9",
+        "95 sqmm"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p039.jpg",
+      "fullPageImg": "app_data/pages/page_039.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-040",
+      "page": 40,
+      "catId": 4,
+      "thaiName": "นัทรูปห่วง M16 ดิน 582",
+      "engName": "NUT, EYE M16 DIN 582",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16",
+          "standard": "DIN 582",
+          "code": "1010180001"
+        }
+      ],
+      "usage": "ใช้ประกอบต่อสายล่อฟ้า สายยึดโยง ซึ่งเมื่อนำมาใช้งานร่วมกับกายทิมเบิล จะสามารถใช้งานแทนทิมเบิ้ลอายนัทได้",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "นัทรูปห่วง",
+        "eye nut",
+        "DIN 582",
+        "M16",
+        "1010180001",
+        "สายล่อฟ้า",
+        "สายยึดโยง"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p040.jpg",
+      "fullPageImg": "app_data/pages/page_040.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-041",
+      "page": 41,
+      "catId": 4,
+      "thaiName": "กายทิมเบิลสำหรับสายยึดโยง 50-95 ตร.มม.",
+      "engName": "THIMBLE GUY, FOR STEEL WIRE 50-95 mm2",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับลวดเหล็กตีเกลียว 50-95 ตร.มม.",
+          "code": "1010210304"
+        }
+      ],
+      "usage": "ประกอบในชุดประกอบสายล่อฟ้า และสายยึดโยง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "กายทิมเบิล",
+        "thimble guy",
+        "50-95",
+        "1010210304",
+        "ล่อฟ้า",
+        "ยึดโยง"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p041.jpg",
+      "fullPageImg": "app_data/pages/page_041.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-042",
+      "page": 42,
+      "catId": 4,
+      "thaiName": "ทิมเบิ้ลอายนัท",
+      "engName": "NUT, EYE, THIMBLE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 16 สำหรับลวดเหล็กตีเกลียว 25-50 ตร.มม.",
+          "code": "1010180003"
+        },
+        {
+          "item": 2,
+          "size": "M 20 สำหรับลวดเหล็กตีเกลียว 50-95 ตร.มม.",
+          "code": "1010180004"
+        }
+      ],
+      "usage": "ใช้งานประกอบสายยึดโยง D-6 และ D-7",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ทิมเบิ้ลอายนัท",
+        "nut eye thimble",
+        "D-6",
+        "D-7",
+        "M16",
+        "M20",
+        "1010180003",
+        "1010180004"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p042.jpg",
+      "fullPageImg": "app_data/pages/page_042.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-043",
+      "page": 43,
+      "catId": 4,
+      "thaiName": "เคลวิสทิมเบิล สำหรับปรีฟอร์มเข้าปลายสาย",
+      "engName": "CLEVIS, THIMBLE, FOR PREFORMED DEADEND",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดมาตรฐานสำหรับพรีฟอร์ม",
+          "code": "1030140011"
+        }
+      ],
+      "usage": "ใช้ร่วมประกอบสายยึดโยง ที่ปลายคอนสาย",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "เคลวิสทิมเบิล",
+        "clevis thimble",
+        "deadend",
+        "1030140011",
+        "ปลายคอนสาย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p043.jpg",
+      "fullPageImg": "app_data/pages/page_043.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-044",
+      "page": 44,
+      "catId": 4,
+      "thaiName": "ยูแคลมป์ สลัก 1 ตัว M 8 (ไวร์ โรป คลิป)",
+      "engName": "CLAMP, SINGLE U-BOLT, M 8 (WIRE ROPE CLIP)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สลัก 1 ตัว M 8",
+          "code": "1010230000"
+        }
+      ],
+      "usage": "ใช้ประกอบสายยึดโยงลวดเหล็กตีเกลียวขนาด 35 และ 50 ตร.มม. ติดตั้งจำนวน 2 และ 3 ชิ้นต่อจุด ตามลำดับ",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ยูแคลมป์",
+        "wire rope clip",
+        "u-bolt",
+        "M8",
+        "1010230000",
+        "ยึดโยง 35-50"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p044.jpg",
+      "fullPageImg": "app_data/pages/page_044.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-045",
+      "page": 45,
+      "catId": 4,
+      "thaiName": "ยูแคลมป์ สลักห่วงคู่ M 16 (ไวร์ โรป คลิป)",
+      "engName": "CLAMP, DOUBLE EYE BOLT, M 16 (WIRE ROPE CLIP)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สลักห่วงคู่ M 16",
+          "code": "1010230001"
+        }
+      ],
+      "usage": "ใช้ร่วมประกอบสายยึดโยงลวดเหล็กตีเกลียวขนาด 95 ตร.มม. ติดตั้งจำนวน 2 ชุดต่อจุด",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ยูแคลมป์สลักคู่",
+        "double eye bolt",
+        "wire rope clip",
+        "M16",
+        "1010230001",
+        "95 sqmm"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p045.jpg",
+      "fullPageImg": "app_data/pages/page_045.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-046",
+      "page": 46,
+      "catId": 4,
+      "thaiName": "ปรีฟอร์มกายกริพ เข้าปลายสาย สำหรับลวดเหล็กตีเกลียว",
+      "engName": "DEAD END, PREFORMED, GUY GRIP FOR STEEL STRANDED WIRE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 50 ตร.มม.",
+          "code": "1010210404"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 95 ตร.มม.",
+          "code": "1010210405"
+        }
+      ],
+      "usage": "1. ใช้ประกอบสายยึดโยง D-6 ตำแหน่งสายล่อฟ้า\n2. ใช้ประกอบสายยึดโยง D-7 ตำแหน่งสายเฟส",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ปรีฟอร์มกายกริพ",
+        "guy grip",
+        "preformed",
+        "dead end",
+        "50 sqmm",
+        "95 sqmm",
+        "1010210404",
+        "1010210405"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p046.jpg",
+      "fullPageImg": "app_data/pages/page_046.jpg",
+      "categoryName": "หมวดเสาเข็ม และชุดยึดโยง",
+      "categoryNameEn": "Piles & Guy Wires"
+    },
+    {
+      "id": "mat-048",
+      "page": 48,
+      "catId": 5,
+      "thaiName": "ลวดเหล็กตีเกลียว มอก. 404",
+      "engName": "WIRE, STEEL STRAND TIS. 404",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 35 ตร.มม.",
+          "code": "1010100003"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 50 ตร.มม.",
+          "code": "1010100004"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 95 ตร.มม.",
+          "code": "1010100006"
+        }
+      ],
+      "usage": "การใช้งาน:\n1. เป็นสายล่อฟ้า\n2. เป็นสายยึดโยง\n3. เป็นสายต่อลงดิน",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ลวดเหล็กตีเกลียว",
+        "steel strand",
+        "มอก 404",
+        "35 sqmm",
+        "50 sqmm",
+        "95 sqmm",
+        "1010100003",
+        "1010100004",
+        "1010100006"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p048.jpg",
+      "fullPageImg": "app_data/pages/page_048.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-049",
+      "page": 49,
+      "catId": 5,
+      "thaiName": "สายทองแดงเปลือย มอก. 64",
+      "engName": "CONDUCTOR, CU, TIS 64",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 50 ตร.มม.",
+          "code": "1010100003"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 95 ตร.มม.",
+          "code": "1010100004"
+        }
+      ],
+      "usage": "ใช้เป็นสายต่อลงดิน สำหรับโครงสร้างเสาที่ติดตั้งอุปกรณ์ไฟฟ้า เช่น สวิตช์ตัดตอน เป็นต้น โดยใช้ร่วมกับหลักดินชนิดทองแดง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สายทองแดงเปลือย",
+        "bare copper",
+        "มอก 64",
+        "50 sqmm",
+        "95 sqmm",
+        "สายต่อลงดิน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p049.jpg",
+      "fullPageImg": "app_data/pages/page_049.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-050",
+      "page": 50,
+      "catId": 5,
+      "thaiName": "ลวดอะลูมิเนียมแบน 1x10 มม.",
+      "engName": "TAPE, ARMOUR, AL, 1x10 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "1x10 มม.",
+          "code": "1020200000"
+        }
+      ],
+      "usage": "ใช้ติดตั้งสายต่อลงดิน กับฐานรากแบบ D-25F",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "ลวดอะลูมิเนียมแบน",
+        "armour tape",
+        "1x10mm",
+        "1020200000",
+        "D-25F"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p050.jpg",
+      "fullPageImg": "app_data/pages/page_050.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-051",
+      "page": 51,
+      "catId": 5,
+      "thaiName": "เหล็กรูปรางน้ำ รับสายล่อฟ้า ขนาด 150x75x6.5 มม. ยาว 2,500 มม.",
+      "engName": "STEEL CHANNEL, OVERHEAD GROUND WIRE BAYONET, 150x75x6.5 mm 2,500 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "150x75x6.5 มม. ยาว 2,500 มม.",
+          "code": "1010000304"
+        }
+      ],
+      "usage": "ใช้สำหรับทางตรงเข้าปลายสายสายล่อฟ้า",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กรับสายล่อฟ้า",
+        "bayonet",
+        "steel channel",
+        "150x75x6.5",
+        "2500mm",
+        "1010000304"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p051.jpg",
+      "fullPageImg": "app_data/pages/page_051.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-052",
+      "page": 52,
+      "catId": 5,
+      "thaiName": "เหล็กฉากรับสายล่อฟ้า ขนาด 65x65x6 มม. ยาว 2,500 มม. (และทางโค้ง)",
+      "engName": "OVERHEAD GROUND WIRE BAYONET, 65x65x6 mm, 2,500 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ยาว 2,500 มม. ทางตรง",
+          "code": "1010010004"
+        },
+        {
+          "item": 2,
+          "size": "ทางโค้ง 2,500 มม. และ 2,150 มม.",
+          "code": "1010010005"
+        }
+      ],
+      "usage": "ใช้กับโครงสร้างระบบ 115 เควี ทั่วไป (มีสลักเกลียว 12x35 มม. 2 ชุด สำหรับยึดหน้าแปลนด้วย)",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กฉากรับสายล่อฟ้า",
+        "bayonet",
+        "angle steel",
+        "2500mm",
+        "1010010004",
+        "1010010005"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p052.jpg",
+      "fullPageImg": "app_data/pages/page_052.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-053",
+      "page": 53,
+      "catId": 5,
+      "thaiName": "เหล็กฉากรับสายล่อฟ้า ขนาด 65x65x6 มม. ยาว 3,000 มม. (และทางโค้ง)",
+      "engName": "OVERHEAD GROUND WIRE BAYONET, 65x65x6 mm, 3,000 mm LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ยาว 3,000 มม. ทางตรง",
+          "code": "1010010006"
+        },
+        {
+          "item": 2,
+          "size": "ทางโค้ง 3,000 มม. และ 2,850 มม.",
+          "code": "1010010007"
+        }
+      ],
+      "usage": "ใช้กับโครงสร้างติดตั้งสวิตช์ตัดตอน 115 เควี (มีสลักเกลียว 12x35 มม. 2 ชุด มาด้วย)",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "เหล็กฉากรับสายล่อฟ้า",
+        "bayonet",
+        "3000mm",
+        "1010010006",
+        "1010010007",
+        "สวิตช์ตัดตอน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p053.jpg",
+      "fullPageImg": "app_data/pages/page_053.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-054",
+      "page": 54,
+      "catId": 5,
+      "thaiName": "แผ่นเหล็ก ขนาด 6x100x900 มม.",
+      "engName": "PLATE, STEEL, SIZE 6x100x900 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "6x100x900 มม.",
+          "code": "1010030005"
+        }
+      ],
+      "usage": "ใช้ประกบกับเหล็กรูปรางน้ำ 2 ชิ้นเข้าด้วยกัน บนโครงสร้างเสาคู่ เพื่อรับสายล่อฟ้าสำหรับลักษณะเข้าปลายสาย",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "แผ่นเหล็ก",
+        "plate steel",
+        "6x100x900",
+        "1010030005",
+        "เสาคู่",
+        "สายล่อฟ้า"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p054.jpg",
+      "fullPageImg": "app_data/pages/page_054.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-055",
+      "page": 55,
+      "catId": 5,
+      "thaiName": "กราวด์วายแคลมป์",
+      "engName": "GROUND WIRE SUPPORT AND CLAMP",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับเหล็กฉากรับสายล่อฟ้า",
+          "code": "1010230203"
+        },
+        {
+          "item": 2,
+          "size": "สำหรับเสาคอนกรีต / เสาเหล็ก 8 เหลี่ยม",
+          "code": "1010230201"
+        }
+      ],
+      "usage": "ใช้ยึดรองรับสายล่อฟ้า โดยวัสดุลำดับที่ 2 กำหนดให้ใช้งานสำหรับเสาเหล็ก 8 เหลี่ยม ความสูง 24 เมตร ด้วย",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "กราวด์วายแคลมป์",
+        "ground wire clamp",
+        "1010230203",
+        "1010230201",
+        "สายล่อฟ้า"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p055.jpg",
+      "fullPageImg": "app_data/pages/page_055.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-056",
+      "page": 56,
+      "catId": 5,
+      "thaiName": "แคลมป์สลัก 3 ตัว สำหรับลวดเหล็กตีเกลียว",
+      "engName": "CLAMP, TRIPLE BOLTS, FOR STEEL STRANDED WIRE, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "35 ตร.มม.",
+          "code": "1010230003"
+        },
+        {
+          "item": 2,
+          "size": "50 ตร.มม.",
+          "code": "1010230004"
+        },
+        {
+          "item": 3,
+          "size": "95 ตร.มม.",
+          "code": "1010230005"
+        }
+      ],
+      "usage": "การใช้งาน:\n1. จับสายล่อฟ้า\n2. จับสายยึดโยง\n3. ยึดสายต่อลงดิน",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "แคลมป์สลัก 3 ตัว",
+        "clamp triple bolts",
+        "35 sqmm",
+        "50 sqmm",
+        "95 sqmm",
+        "1010230003",
+        "1010230004",
+        "1010230005"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p056.jpg",
+      "fullPageImg": "app_data/pages/page_056.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-057",
+      "page": 57,
+      "catId": 5,
+      "thaiName": "สลักเกลียว (สำหรับสายล่อฟ้า)",
+      "engName": "BOLT, MACHINE (FOR GROUND WIRE)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "M 12x35 มม.",
+          "code": "1010110100"
+        },
+        {
+          "item": 2,
+          "size": "M 12x50 มม.",
+          "code": "1010110101"
+        }
+      ],
+      "usage": "ใช้ยึดเหล็กฉากรับสายล่อฟ้าทางโค้ง และอุปกรณ์ต่างๆ สำหรับชุดต่อสายล่อฟ้า เข้ากับเสาไฟฟ้า",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สลักเกลียว",
+        "bolt machine",
+        "M12",
+        "M12x35",
+        "M12x50",
+        "1010110100",
+        "1010110101"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p057.jpg",
+      "fullPageImg": "app_data/pages/page_057.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-058",
+      "page": 58,
+      "catId": 5,
+      "thaiName": "แผ่นเหล็กประกอบที่โคนเสา",
+      "engName": "PLATE, STEEL, FOR GROUND WIRE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับประกอบที่โคนเสา",
+          "code": "1010030006"
+        }
+      ],
+      "usage": "ใช้สำหรับเป็นตัวเชื่อมระหว่างสายตัวนำต่อลงดินกับกราวด์เพลท ที่บริเวณโคนเสา",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "แผ่นเหล็กโคนเสา",
+        "ground wire plate",
+        "โคนเสา",
+        "กราวด์เพลท",
+        "1010030006"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p058.jpg",
+      "fullPageImg": "app_data/pages/page_058.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-059",
+      "page": 59,
+      "catId": 5,
+      "thaiName": "แผ่นเหล็กสำหรับประกอบโคนเสา",
+      "engName": "PLATE, STEEL, FOR GROUND WIRE (BASE MOUNT)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แผ่นเหล็กสำหรับประกอบโคนเสา",
+          "code": "1010030007"
+        },
+        {
+          "item": 2,
+          "size": "แผ่นเหล็ก ขนาด 40x110x5 มม.",
+          "code": "1010030008"
+        }
+      ],
+      "usage": "ใช้สำหรับเป็นตัวเชื่อมระหว่างสายตัวนำต่อลงดินกับกราวด์เพลทที่บริเวณโคนเสา",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "แผ่นเหล็กโคนเสา",
+        "plate steel",
+        "40x110x5",
+        "1010030007",
+        "1010030008",
+        "กราวด์เพลท"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p059.jpg",
+      "fullPageImg": "app_data/pages/page_059.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-060",
+      "page": 60,
+      "catId": 5,
+      "thaiName": "ท่อ พีวีซีแข็ง",
+      "engName": "CONDUIT, PVC, RIGID",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด Ø 20x2,500 มม. มอก. 216",
+          "code": "1080040001"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด Ø 20x2,000 มม. มอก. 216",
+          "code": "1080040005"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด Ø 40x200 มม. มอก. 216",
+          "code": "1080040006"
+        }
+      ],
+      "usage": "1. ใช้ร้อยสายต่อลงดิน\n2. ใช้ต่อท่อร้อยสายรายการที่ 1 ที่โคนเสา",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ท่อพีวีซี",
+        "ท่อร้อยสาย",
+        "pvc conduit",
+        "มอก 216",
+        "1080040001",
+        "1080040005",
+        "1080040006"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p060.jpg",
+      "fullPageImg": "app_data/pages/page_060.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-061",
+      "page": 61,
+      "catId": 5,
+      "thaiName": "หลักดิน 60x60x5 มม. ยาว 2 ม.",
+      "engName": "ROD, GROUND, 60x60x5 mm, 2 m LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "60x60x5 มม. ยาว 2 ม.",
+          "code": "1010220002"
+        }
+      ],
+      "usage": "ใช้เป็นหลักดินการต่อลงดิน",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "หลักดิน",
+        "ground rod",
+        "60x60x5",
+        "2m",
+        "1010220002",
+        "การต่อลงดิน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p061.jpg",
+      "fullPageImg": "app_data/pages/page_061.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-062",
+      "page": 62,
+      "catId": 5,
+      "thaiName": "หลักดินทำด้วยเหล็กเคลือบทองแดง Ø 16 มม. ยาว 3 เมตร",
+      "engName": "GROUND ROD, COPPER-CLAD STEEL, dia 16, 3 m LONG",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "Ø 16 มม. ยาว 3 เมตร",
+          "code": "1010220007"
+        }
+      ],
+      "usage": "ใช้เป็นหลักดินในการต่อลงดิน สำหรับโครงสร้างเสาที่ติดตั้งอุปกรณ์ไฟฟ้า เช่น สวิตช์ตัดตอน เป็นต้น โดยใช้รวมกับสายต่อลงดินชนิดทองแดง",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "หลักดินทองแดง",
+        "copper-clad ground rod",
+        "dia16",
+        "3m",
+        "1010220007",
+        "สวิตช์ตัดตอน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p062.jpg",
+      "fullPageImg": "app_data/pages/page_062.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-063",
+      "page": 63,
+      "catId": 5,
+      "thaiName": "สายดินแบนสแตนเลสขนาด 30x3.5x10,000 มม.",
+      "engName": "GROUND CONDUCTOR, FLAT STEEL, 30x3.5x10,000 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "30x3.5x10,000 มม.",
+          "code": "1010220010"
+        }
+      ],
+      "usage": "ใช้เป็นสายดินการต่อลงดินแบบ GS (GROUND FLAT STEEL)",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "สายดินแบน",
+        "flat steel",
+        "ground conductor",
+        "30x3.5x10000",
+        "1010220010",
+        "GS"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p063.jpg",
+      "fullPageImg": "app_data/pages/page_063.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-064",
+      "page": 64,
+      "catId": 5,
+      "thaiName": "คอนเนคเตอร์สำหรับแผ่นหน้าแบน 30 มม.",
+      "engName": "CONNECTOR, FOR FLAT IRON 30 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "กับสาย 16-50 ตร.มม.",
+          "code": "1010230102"
+        },
+        {
+          "item": 2,
+          "size": "กับแผ่นเหล็กแบน 30 มม.",
+          "code": "1010230103"
+        }
+      ],
+      "usage": "ใช้ทำข้อต่อเชื่อมระหว่างสายดินแบบแบนต่อชนกับสาย หรือกับสายดินแบบแบน สำหรับการต่อลงดินแบบ GS",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "คอนเนคเตอร์แบน",
+        "flat iron connector",
+        "30mm",
+        "1010230102",
+        "1010230103",
+        "GS"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p064.jpg",
+      "fullPageImg": "app_data/pages/page_064.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-065",
+      "page": 65,
+      "catId": 5,
+      "thaiName": "ผงเคมีลดค่าความต้านทานดิน",
+      "engName": "CHEMICALS FOR EARTH RESISTANCE REDUCTION",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ผงเคมีลดค่าความต้านทานดิน",
+          "code": "1010220200"
+        }
+      ],
+      "usage": "ใช้สำหรับการต่อลงดินแบบ GC (GROUND CHEMICALS) เพื่อลดค่าความต้านทานดินในพื้นที่หินหรือความต้านทานสูง",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "ผงเคมีลดความต้านทานดิน",
+        "earth resistance chemical",
+        "GC",
+        "ground chemicals",
+        "1010220200"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p065.jpg",
+      "fullPageImg": "app_data/pages/page_065.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-066",
+      "page": 66,
+      "catId": 5,
+      "thaiName": "จุดต่อสายดินกับแผ่นเหล็กหรือหลักดินแบบเชื่อมด้วยความร้อน ไฮแคต",
+      "engName": "EXOTHERMIC WELDING POINT (CADWELD / HYCAT)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ผงเชื่อม",
+          "code": "1010220123"
+        },
+        {
+          "item": 2,
+          "size": "แป้นพิมพ์",
+          "code": "1010220122"
+        },
+        {
+          "item": 3,
+          "size": "แคลมป์สำหรับคีบแม่พิมพ์",
+          "code": "1010220100"
+        },
+        {
+          "item": 4,
+          "size": "ปืนจุดผงเชื่อม",
+          "code": "1010220101"
+        },
+        {
+          "item": 5,
+          "size": "อุปกรณ์อื่นๆ ที่เหมาะสม",
+          "code": "ที่เกี่ยวข้อง"
+        }
+      ],
+      "usage": "ใช้เป็นจุดเชื่อมต่อลงดินแบบจุดต่อเชื่อม (Exothermic Welding)",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "ผงเชื่อม",
+        "ไฮแคต",
+        "cadweld",
+        "exothermic welding",
+        "แม่พิมพ์",
+        "ปืนจุดเชื่อม",
+        "1010220123",
+        "1010220122"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p066.jpg",
+      "fullPageImg": "app_data/pages/page_066.jpg",
+      "categoryName": "หมวดชุดต่อสายล่อฟ้า และการต่อลงดิน",
+      "categoryNameEn": "Shielding & Grounding"
+    },
+    {
+      "id": "mat-068",
+      "page": 68,
+      "catId": 6,
+      "thaiName": "ที่แขวนลูกถ้วยทางโค้ง",
+      "engName": "BRACKET, CORNER SUSPENSION",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดมาตรฐาน",
+          "code": "1030140012"
+        }
+      ],
+      "usage": "ใช้ติดตั้งลูกถ้วยแขวนในแนวดิ่ง เพื่อเพิ่มระยะห่างจากคอนสายกรณีลูกถ้วยแกว่งตามการแกว่ง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ที่แขวนลูกถ้วยทางโค้ง",
+        "bracket corner suspension",
+        "1030140012",
+        "ลูกถ้วยแขวน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p068.jpg",
+      "fullPageImg": "app_data/pages/page_068.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-069",
+      "page": 69,
+      "catId": 6,
+      "thaiName": "อายเล็ทสำหรับสลักเกลียว M 20",
+      "engName": "EYELET FOR BOLT, M 20",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับสลักเกลียว M 20",
+          "code": "1010180002"
+        }
+      ],
+      "usage": "ใช้สำหรับโครงสร้างเสาแบบเข้าปลายสายสองข้าง เพื่อติดตั้งลูกถ้วยแขวนลักษณะแนวนอน แบบ D-3 เป็นต้น",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "อายเล็ท",
+        "eyelet",
+        "M20",
+        "1010180002",
+        "ลูกถ้วยแนวนอน",
+        "D-3"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p069.jpg",
+      "fullPageImg": "app_data/pages/page_069.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-070",
+      "page": 70,
+      "catId": 6,
+      "thaiName": "ลูกถ้วยแขวนพอร์ซเลน",
+      "engName": "PORCELAIN INSULATOR, SUSPENSION",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แบบ ค. (52-3) มอก. 354",
+          "code": "1030020001"
+        },
+        {
+          "item": 2,
+          "size": "แบบ จ. (52-8) มอก. 354",
+          "code": "1030020003"
+        }
+      ],
+      "usage": "ใช้เป็นฉนวนกั้นระหว่างสายไฟฟ้าและกราวด์ โดย\n1. แบบ ค. ใช้ติดตั้งเข้าสายไฟฟ้า ทั้งกรณีพาดสายไฟฟ้าเดี่ยวและคู่ และใช้เข้าปลายสายกรณีสายไฟฟ้าเดี่ยว\n2. แบบ จ. ใช้ติดตั้งเข้าปลายสาย กรณีสายไฟฟ้าคู่",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "ลูกถ้วยพอร์ซเลน",
+        "porcelain insulator",
+        "suspension",
+        "52-3",
+        "52-8",
+        "มอก 354",
+        "1030020001",
+        "1030020003"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p070.jpg",
+      "fullPageImg": "app_data/pages/page_070.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-071",
+      "page": 71,
+      "catId": 6,
+      "thaiName": "ลูกถ้วยแขวนแก้วเหนียว",
+      "engName": "TOUGHENED GLASS INSULATOR, SUSPENSION",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แบบ ค. (52-3) มอก. 563",
+          "code": "1030020001"
+        },
+        {
+          "item": 2,
+          "size": "แบบ จ. (52-8) มอก. 563",
+          "code": "1030020003"
+        }
+      ],
+      "usage": "ใช้เป็นฉนวนกั้นระหว่างสายไฟฟ้าและกราวด์ โดยประกอบการใช้งานเช่นเดียวกับลูกถ้วยแขวนพอร์ซเลน ซึ่งมีข้อดีกว่าคือ:\n1) ค่าสัมประสิทธิ์การขยายตัวต่อความร้อนต่ำ\n2) ไม่แตกร้าวหรือพองตัว ในบริเวณที่มีความแตกต่างของอุณหภูมิมาก",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "ลูกถ้วยแก้วเหนียว",
+        "toughened glass",
+        "glass insulator",
+        "52-3",
+        "52-8",
+        "มอก 563",
+        "1030020001",
+        "1030020003"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p071.jpg",
+      "fullPageImg": "app_data/pages/page_071.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-072",
+      "page": 72,
+      "catId": 6,
+      "thaiName": "ลูกถ้วยแขวนคอมโพสิต 115 เควี",
+      "engName": "115 kV COMPOSITE INSULATOR, SUSPENSION",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ยาว 1,100-1,200 มม. >= 110 กิโลนิวตัน",
+          "code": "1030020100"
+        },
+        {
+          "item": 2,
+          "size": "ยาว 1,500-1,600 มม. >= 110 กิโลนิวตัน",
+          "code": "1030020101"
+        },
+        {
+          "item": 3,
+          "size": "ยาว 1,500-1,600 มม. >= 220 กิโลนิวตัน",
+          "code": "1030020103"
+        }
+      ],
+      "usage": "ใช้เป็นฉนวนกั้นระหว่างสายไฟฟ้าและกราวด์ โดยมีน้ำหนักเบา ความยาวพวงสายสั้น ใช้ในบริเวณที่มีมลภาวะสูง เช่น ชายทะเล หรือใกล้โรงงานอุตสาหกรรม เป็นต้น",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "ลูกถ้วยคอมโพสิต",
+        "composite insulator",
+        "115 kV",
+        "110 kN",
+        "220 kN",
+        "1030020100",
+        "1030020101",
+        "1030020103"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p072.jpg",
+      "fullPageImg": "app_data/pages/page_072.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-073",
+      "page": 73,
+      "catId": 6,
+      "thaiName": "ลูกถ้วยโพสท์ 115 เควี ติดตั้งแนวนอน",
+      "engName": "INSULATOR, POST TYPE, 115 kV, HORIZONTAL MOUNTING",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ชนิดไม่รับแรงดึง",
+          "code": "1030010204"
+        },
+        {
+          "item": 2,
+          "size": "ชนิดรับแรงดึง",
+          "code": "1030010205"
+        }
+      ],
+      "usage": "ใช้เป็นฉนวนกั้นระหว่างสายและกราวด์ โดยเหมาะสำหรับการติดตั้งสายส่งทางแคบ เพิ่มระยะห่างทางไฟฟ้าด้านข้างให้มากขึ้น และจุดที่ไม่ต้องพิจารณาเรื่องการแกว่งของลูกถ้วย",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "ลูกถ้วยโพสท์",
+        "post type",
+        "horizontal",
+        "115 kV",
+        "1030010204",
+        "1030010205",
+        "สายส่งทางแคบ"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p073.jpg",
+      "fullPageImg": "app_data/pages/page_073.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-074",
+      "page": 74,
+      "catId": 6,
+      "thaiName": "ข้อต่อแขวน แบบหัวกลม ANSI แบบ B",
+      "engName": "BALL-HOOK, ANSI, TYPE B",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ANSI แบบ B",
+          "code": "1030140002"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-1, D-11 และ D-17",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "บอลฮุค",
+        "ball-hook",
+        "ANSI Type B",
+        "1030140002",
+        "D-1",
+        "D-11",
+        "D-17"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p074.jpg",
+      "fullPageImg": "app_data/pages/page_074.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-075",
+      "page": 75,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ ซ็อคเก็ต-อาย ANSI แบบ B",
+      "engName": "SOCKET-EYE, ANSI, TYPE B",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ANSI แบบ B",
+          "code": "1030140003"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-1, D-2, D-4, D-1, D-14, D-19A, D-19C, และ D-19F",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ซ็อคเก็ตอาย",
+        "socket-eye",
+        "ANSI Type B",
+        "1030140003"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p075.jpg",
+      "fullPageImg": "app_data/pages/page_075.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-076",
+      "page": 76,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ ซ็อคเก็ต-เคลวิส, ANSI",
+      "engName": "SOCKET-CLEVIS, ANSI",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แบบ (TYPE) B",
+          "code": "1030140006"
+        },
+        {
+          "item": 2,
+          "size": "แบบ (TYPE) K",
+          "code": "1030140007"
+        }
+      ],
+      "usage": "1. แบบ B ใช้ประกอบลูกถ้วยแขวนแบบ D-3, D-12, D-13, D-15, D-16, D-17, D-18, D-19B, D-19D, D-19E, D-19G, D-19H, D-19I และ D-19J\n2. แบบ K ใช้ประกอบลูกถ้วยแขวนแบบ D-13, D-14, D-16, D-19E, D-19F, D-19H และ D-19I",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ซ็อคเก็ตเคลวิส",
+        "socket-clevis",
+        "Type B",
+        "Type K",
+        "1030140006",
+        "1030140007"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p076.jpg",
+      "fullPageImg": "app_data/pages/page_076.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-077",
+      "page": 77,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ เคลวิส-อาย",
+      "engName": "CLEVIS-EYE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดมาตรฐาน",
+          "code": "1030140000"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-12, D-17 และ D-19D",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "เคลวิสอาย",
+        "clevis-eye",
+        "1030140000",
+        "D-12",
+        "D-17",
+        "D-19D"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p077.jpg",
+      "fullPageImg": "app_data/pages/page_077.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-078",
+      "page": 78,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ วาย-เคลวิส-บอล ANSI แบบ J",
+      "engName": "Y-CLEVIS-BALL, ANSI, TYPE J",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ANSI แบบ J",
+          "code": "1030140004"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-2 และ D-12",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "วายเคลวิสบอล",
+        "y-clevis-ball",
+        "ANSI Type J",
+        "1030140004",
+        "D-2",
+        "D-12"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p078.jpg",
+      "fullPageImg": "app_data/pages/page_078.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-079",
+      "page": 79,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ บอล-เคลวิส, ANSI",
+      "engName": "BALL-CLEVIS, ANSI",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แบบ (TYPE) B",
+          "code": "1030140005"
+        },
+        {
+          "item": 2,
+          "size": "แบบ (TYPE) K",
+          "code": "1030140001"
+        }
+      ],
+      "usage": "1. แบบ B ใช้ประกอบลูกถ้วยแขวนแบบ D-3, D-4, D-13, D-14, D-15, D-16, D-18, D-19D, D-19E, D-19F, D-19H และ D-19I\n2. แบบ K ใช้ประกอบลูกถ้วยแขวนแบบ D-13, D-14 และ D-16",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "บอลเคลวิส",
+        "ball-clevis",
+        "Type B",
+        "Type K",
+        "1030140005",
+        "1030140001"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p079.jpg",
+      "fullPageImg": "app_data/pages/page_079.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-080",
+      "page": 80,
+      "catId": 6,
+      "thaiName": "ข้อต่อแบบ บอล-อาย ANSI แบบ B",
+      "engName": "BALL-EYE, ANSI TYPE B",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ANSI แบบ B",
+          "code": "1030140008"
+        }
+      ],
+      "usage": "ใช้ติดตั้งกับชุดพวงลูกถ้วยแบบเข้าปลายสาย โดยใช้งานคู่กับเหล็กห่วงสำหรับยึดโยง เพื่อเพิ่มระยะห่างระหว่างสายไฟฟ้ากับกราวด์ให้มีค่ามากยิ่งขึ้น",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "บอลอาย",
+        "ball-eye",
+        "Type B",
+        "1030140008",
+        "เข้าปลายสาย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p080.jpg",
+      "fullPageImg": "app_data/pages/page_080.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-081",
+      "page": 81,
+      "catId": 6,
+      "thaiName": "เหล็กห่วงสำหรับยึดโยง",
+      "engName": "SHACKLE, ANCHOR",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดมาตรฐาน",
+          "code": "1010210302"
+        }
+      ],
+      "usage": "1. ใช้ประกอบสายยึดโยงด้านล่าง (ปัจจุบันไม่มีการติดตั้งใช้งานแล้ว)\n2. ใช้ติดตั้งกับชุดพวงลูกถ้วยแบบเข้าปลายสาย โดยใช้งานคู่กับข้อต่อแบบ บอล-อาย เพื่อเพิ่มระยะห่างระหว่างสายไฟฟ้ากับกราวด์ให้มีค่ามากยิ่งขึ้น",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "เหล็กห่วงสำหรับยึดโยง",
+        "anchor shackle",
+        "shackle",
+        "1010210302",
+        "พวงลูกถ้วย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p081.jpg",
+      "fullPageImg": "app_data/pages/page_081.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-082",
+      "page": 82,
+      "catId": 6,
+      "thaiName": "แผ่นหน้าแยกสาย",
+      "engName": "SPACER, PLATE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดมาตรฐาน",
+          "code": "1030140013"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-12, D-13, D-14, D-16, D-17, D-19D, D-19E, D-19F, D-19H และ D-19I",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "แผ่นหน้าแยกสาย",
+        "spacer plate",
+        "1030140013",
+        "แยกสาย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p082.jpg",
+      "fullPageImg": "app_data/pages/page_082.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-083",
+      "page": 83,
+      "catId": 6,
+      "thaiName": "แคลมป์แขวนสำหรับสายอะลูมิเนียม",
+      "engName": "CLAMP, SUSPENSION, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 240 ตร.มม.",
+          "code": "1030120001"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1030120002"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1030120003"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-2, D-11, D-12, D-17, D-19A และ D-19D",
+      "storage": "คลังในร่ม (คลังโปร่ง)",
+      "tags": [
+        "แคลมป์แขวน",
+        "suspension clamp",
+        "aluminum conductor",
+        "240 sqmm",
+        "400 sqmm",
+        "625 sqmm",
+        "1030120001",
+        "1030120002",
+        "1030120003"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p083.jpg",
+      "fullPageImg": "app_data/pages/page_083.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-084",
+      "page": 84,
+      "catId": 6,
+      "thaiName": "สเตรนแคลมป์พร้อมแผ่นประกบลิ้นคีปเปอร์ สำหรับสายอะลูมิเนียม",
+      "engName": "CLAMP, STRAIN, WITH CLAMPING KEEPER, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 240 ตร.มม.",
+          "code": "1030110102"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1030110103"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1030110104"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-4, D-14, D-19C และ D-19F",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "สเตรนแคลมป์",
+        "strain clamp",
+        "clamping keeper",
+        "240",
+        "400",
+        "625",
+        "1030110102",
+        "1030110103",
+        "1030110104"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p084.jpg",
+      "fullPageImg": "app_data/pages/page_084.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-085",
+      "page": 85,
+      "catId": 6,
+      "thaiName": "แคลมป์เข้าปลายสาย แบบบีบหัวต่อเดี่ยว สำหรับสายอะลูมิเนียม",
+      "engName": "CLAMP, DEAD END, COMPRESSION, SINGLE LUG, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 240 ตร.มม.",
+          "code": "1020430000"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020430001"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1020430002"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-3, D-13, D-19B และ D-19E",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "แคลมป์เข้าปลายสาย",
+        "dead end clamp",
+        "compression single lug",
+        "240",
+        "400",
+        "625",
+        "1020430000",
+        "1020430001",
+        "1020430002"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p085.jpg",
+      "fullPageImg": "app_data/pages/page_085.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-086",
+      "page": 86,
+      "catId": 6,
+      "thaiName": "แคลมป์เข้าปลายสาย แบบบีบหัวต่อคู่ สำหรับสายอะลูมิเนียม",
+      "engName": "CLAMP, DEAD END, COMPRESSION, DOUBLE LUG, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 240 ตร.มม.",
+          "code": "1020430100"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020430101"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1020430102"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-15, D-16, D-18, D-19G, D-19H, D-19I และ D-19J",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "แคลมป์เข้าปลายสายคู่",
+        "dead end clamp",
+        "compression double lug",
+        "240",
+        "400",
+        "625",
+        "1020430100",
+        "1020430101",
+        "1020430102"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p086.jpg",
+      "fullPageImg": "app_data/pages/page_086.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-087",
+      "page": 87,
+      "catId": 6,
+      "thaiName": "หางปลาแบบ 15° เจาะรูตามมาตรฐานเนม่า สำหรับสายอะลูมิเนียม",
+      "engName": "TERMINAL, COMPRESSION, 15° PAD, NEMA HOLE, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 240 ตร.มม.",
+          "code": "1020420301"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020420302"
+        },
+        {
+          "item": 3,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1020420303"
+        }
+      ],
+      "usage": "ใช้ประกอบใช้งานร่วมกับแคลมป์เข้าปลายสายแบบบีบ หรือต่อคู่",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "หางปลา 15 องศา",
+        "terminal compression",
+        "NEMA hole",
+        "240",
+        "400",
+        "625",
+        "1020420301",
+        "1020420302",
+        "1020420303"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p087.jpg",
+      "fullPageImg": "app_data/pages/page_087.jpg",
+      "categoryName": "หมวดลูกถ้วยฉนวน และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Insulators & Hardware"
+    },
+    {
+      "id": "mat-089",
+      "page": 89,
+      "catId": 7,
+      "thaiName": "สายอะลูมิเนียมเปลือย และสายอะลูมิเนียมแกนเหล็ก",
+      "engName": "CONDUCTOR, AL, BARE & ACSR",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สายอะลูมิเนียมเปลือย 400 ตร.มม. มอก. 85",
+          "code": "1020010009"
+        },
+        {
+          "item": 2,
+          "size": "สายอะลูมิเนียมเปลือย 625 ตร.มม. มอก. 85",
+          "code": "1020010010"
+        },
+        {
+          "item": 3,
+          "size": "สายอะลูมิเนียมแกนเหล็ก 380/50 ตร.มม. มอก. 86 (ACSR)",
+          "code": "1020020008"
+        },
+        {
+          "item": 4,
+          "size": "สายอะลูมิเนียมเจือ 400 ตร.มม. มอก. 725 (ปัจจุบันไม่จัดซื้อใช้งาน)",
+          "code": "-"
+        }
+      ],
+      "usage": "ใช้สำหรับส่งพลังงานไฟฟ้าไปยังผู้ใช้ไฟฟ้า โดยพาดสายไฟฟ้าบนลูกถ้วยฉนวนไฟฟ้า และติดตั้งบนเสาไฟฟ้า",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "สายไฟ",
+        "สายอะลูมิเนียมเปลือย",
+        "ACSR",
+        "400 sqmm",
+        "625 sqmm",
+        "380/50",
+        "1020010009",
+        "1020010010",
+        "1020020008"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p089.jpg",
+      "fullPageImg": "app_data/pages/page_089.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-090",
+      "page": 90,
+      "catId": 7,
+      "thaiName": "ปรีฟอร์มอาร์เมอร์ร็อด สำหรับสายอะลูมิเนียม หรืออะลูมิเนียมอัลลอย",
+      "engName": "ARMOR ROD, PREFORMED, FOR AL OR AL ALLOY CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "240 ตร.มม.",
+          "code": "1020220108"
+        },
+        {
+          "item": 2,
+          "size": "400 ตร.มม.",
+          "code": "1020220109"
+        },
+        {
+          "item": 3,
+          "size": "625 ตร.มม.",
+          "code": "1020220110"
+        }
+      ],
+      "usage": "ใช้รองรับสายที่จุดยึดกับแคลมป์แขวนสำหรับสายอะลูมิเนียม เพื่อป้องกันสายช้ำและลดการสั่นสะเทือน",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "อาร์เมอร์ร็อด",
+        "armor rod",
+        "preformed",
+        "240",
+        "400",
+        "625",
+        "1020220108",
+        "1020220109",
+        "1020220110"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p090.jpg",
+      "fullPageImg": "app_data/pages/page_090.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-091",
+      "page": 91,
+      "catId": 7,
+      "thaiName": "ชุดปรีฟอร์มอาร์เมอร์กริพ สำหรับสายอะลูมิเนียมขนาด 400 ตร.มม.",
+      "engName": "SUSPENSION, ARMOR-GRIP PREFORMED, FOR 400 mm2 AL CONDUCTOR",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020230001"
+        }
+      ],
+      "usage": "ใช้ประกอบลูกถ้วยแขวนแบบ D-2, D-12, D-19A และ D-19D สำหรับงานก่อสร้างใหม่ และงานปรับปรุงแทนแคลมป์แขวน (SUSPENSION CLAMP) แบบ D-1",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "อาร์เมอร์กริพ",
+        "armor grip",
+        "preformed suspension",
+        "400 sqmm",
+        "1020230001",
+        "D-2",
+        "D-12"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p091.jpg",
+      "fullPageImg": "app_data/pages/page_091.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-092",
+      "page": 92,
+      "catId": 7,
+      "thaiName": "ชุดปรีฟอร์มไลน์การ์ด สำหรับสายอะลูมิเนียมขนาด 400 ตร.มม.",
+      "engName": "LINE GUARD, PREFORMED SIZE 400 mm2",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020210109"
+        }
+      ],
+      "usage": "1. ใช้รองรับสายในการยึดบนลูกถ้วยแบบโพสท์ ติดตั้งแนวนอน ระบบ 115 เควี\n2. ใช้ซ่อมสายไฟฟ้าที่ลวดชั้นนอกชำรุดไม่เกิน 25%",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ไลน์การ์ด",
+        "line guard",
+        "preformed",
+        "400 sqmm",
+        "1020210109",
+        "ลูกถ้วยโพสท์",
+        "ซ่อมสาย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p092.jpg",
+      "fullPageImg": "app_data/pages/page_092.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-093",
+      "page": 93,
+      "catId": 7,
+      "thaiName": "ปรีฟอร์มแยกสาย สำหรับสายอะลูมิเนียม",
+      "engName": "SPACER, HELICAL ROD, PREFORMED, FOR AL CONDUCTOR, SIZE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาด 400 ตร.มม.",
+          "code": "1020240000"
+        },
+        {
+          "item": 2,
+          "size": "ขนาด 625 ตร.มม.",
+          "code": "1020240001"
+        }
+      ],
+      "usage": "ใช้ติดตั้งแยกสายไฟฟ้าคู่ เพื่อไม่ให้สายไฟฟ้าสองเส้นกระทบกันเนื่องจากลมพัดหรือแรงทางแม่เหล็กไฟฟ้า",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ปรีฟอร์มแยกสาย",
+        "spacer",
+        "helical rod",
+        "400 sqmm",
+        "625 sqmm",
+        "1020240000",
+        "1020240001",
+        "สายคู่"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p093.jpg",
+      "fullPageImg": "app_data/pages/page_093.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-094",
+      "page": 94,
+      "catId": 7,
+      "thaiName": "หลอดต่อสายชนิดรับแรงดึง และไม่รับแรงดึง",
+      "engName": "COMPRESSION SPLICING SLEEVES (FULL & PARTIAL TENSION)",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ชนิดรับแรงดึง สาย AL 400 ตร.มม.",
+          "code": "1020400009"
+        },
+        {
+          "item": 2,
+          "size": "ชนิดรับแรงดึง สาย AL/แกนเหล็ก 380/50 ตร.มม.",
+          "code": "1020400107"
+        },
+        {
+          "item": 3,
+          "size": "ชนิดไม่รับแรงดึง สาย AL 400 ตร.มม.",
+          "code": "1020410009"
+        },
+        {
+          "item": 4,
+          "size": "ชนิดไม่รับแรงดึง สาย AL 625 ตร.มม.",
+          "code": "1020410010"
+        }
+      ],
+      "usage": "ใช้ต่อสายไฟฟ้าเพื่อเพิ่มความยาว หรือต่อจั๊มป์เชื่อมสายไฟฟ้าในไลน์",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "หลอดต่อสาย",
+        "compression sleeve",
+        "splicing sleeve",
+        "full tension",
+        "partial tension",
+        "1020400009",
+        "1020410009"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p094.jpg",
+      "fullPageImg": "app_data/pages/page_094.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-095",
+      "page": 95,
+      "catId": 7,
+      "thaiName": "ลูกบอลแสดงแนวสาย สีขาวสลับสีส้ม",
+      "engName": "SPHERICAL MARKER, WHITE AND ORANGE COLOR",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "เส้นผ่านศูนย์กลางประมาณ 0.5 ม. (สีขาวสลับส้ม)",
+          "code": "-"
+        }
+      ],
+      "usage": "ใช้ติดตั้งที่สายล่อฟ้า เพื่อเป็นจุดสังเกตสำหรับนักบิน โดยจะติดตั้งตลอดแนวสาย ห่างกันทุกระยะไม่เกิน 40 ม.",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ลูกบอลแสดงแนวสาย",
+        "spherical marker",
+        "warning sphere",
+        "marker ball",
+        "เครื่องบิน",
+        "สายล่อฟ้า"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p095.jpg",
+      "fullPageImg": "app_data/pages/page_095.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-096",
+      "page": 96,
+      "catId": 7,
+      "thaiName": "ไวเบรชั่นแดมเปอร์ แบบดัมเบล",
+      "engName": "VIBRATION DAMPER TYPE DUMBBELL",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ลวดเหล็กตีเกลียวขนาด 35 ตร.มม.",
+          "code": "1020200105"
+        },
+        {
+          "item": 2,
+          "size": "ลวดเหล็กตีเกลียวขนาด 50 ตร.มม.",
+          "code": "1020200106"
+        },
+        {
+          "item": 3,
+          "size": "สายอะลูมิเนียมเปลือยขนาด 400 ตร.มม.",
+          "code": "1020200104"
+        },
+        {
+          "item": 4,
+          "size": "สายอะลูมิเนียมแกนเหล็ก 380/50 ตร.มม.",
+          "code": "1020200107"
+        }
+      ],
+      "usage": "ช่วยลดการสั่นไหวของสายไฟฟ้า และสายล่อฟ้าที่เกิดจากลมพัด ป้องกันสายขาดบริเวณแคลมป์จับยึดสาย",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ไวเบรชั่นแดมเปอร์",
+        "vibration damper",
+        "dumbbell",
+        "35",
+        "50",
+        "400",
+        "380/50",
+        "1020200105",
+        "1020200104"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p096.jpg",
+      "fullPageImg": "app_data/pages/page_096.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-097",
+      "page": 97,
+      "catId": 7,
+      "thaiName": "คอมปาวด์ ช่วยสัมผัสทางไฟฟ้า",
+      "engName": "COMPOUND, ELECTRICAL CONTACT AID",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "หลอดสารทาช่วยสัมผัสทางไฟฟ้า",
+          "code": "-"
+        }
+      ],
+      "usage": "ใช้ทาที่จุดต่อของสาย เพื่อช่วยสัมผัสทางไฟฟ้า เช่น บริเวณจุดเชื่อมต่อด้วยหางปลา ป้องกันการเกิดออกไซด์และลดความต้านทานสัมผัส",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "คอมปาวด์",
+        "contact aid",
+        "electrical compound",
+        "จุดต่อสาย",
+        "หางปลา"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p097.jpg",
+      "fullPageImg": "app_data/pages/page_097.jpg",
+      "categoryName": "หมวดสายไฟฟ้า และอุปกรณ์ประกอบ",
+      "categoryNameEn": "Conductors & Accessories"
+    },
+    {
+      "id": "mat-099",
+      "page": 99,
+      "catId": 8,
+      "thaiName": "แอร์เบรกสวิตช์ 3 ขา 115 kV เปิดในแนวนอนพร้อมฐานโยกสวิตช์ คันโยกและอุปกรณ์ติดตั้ง",
+      "engName": "SWITCH, AIR BREAK, TRIPLE POLE, 115 kV, HORIZONTAL-OPENING, COMP. WITH MOUNTING ACCESSORIES",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดไม่น้อยกว่า 1,200 A 61 kA",
+          "code": "1040060200"
+        },
+        {
+          "item": 2,
+          "size": "ขนาดไม่น้อยกว่า 2,000 A 100 kA",
+          "code": "1040060207"
+        }
+      ],
+      "usage": "ใช้เป็นสวิตช์ตัดตอนได้ ขณะไม่มีโหลด (No-Load Disconnect Switch)",
+      "storage": "ลานกลางแจ้ง/คลังโปร่ง",
+      "tags": [
+        "แอร์เบรกสวิตช์",
+        "ABS",
+        "air break switch",
+        "115 kV",
+        "1200A",
+        "2000A",
+        "1040060200",
+        "1040060207",
+        "ตัดตอน"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p099.jpg",
+      "fullPageImg": "app_data/pages/page_099.jpg",
+      "categoryName": "หมวดอุปกรณ์ป้องกัน และสวิตช์",
+      "categoryNameEn": "Protection & Switches"
+    },
+    {
+      "id": "mat-100",
+      "page": 100,
+      "catId": 8,
+      "thaiName": "โหลดเบรกสวิตช์ 3 ขา 115 kV เปิดในแนวนอน พร้อมกลไกโยกสวิตช์ คันโยกและอุปกรณ์ประกอบ",
+      "engName": "SWITCH, LOAD BREAK, TRIPLE POLE, 115 kV, HORIZONTAL-OPENING, COMP. WITH ACCESSORIES",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "ขนาดไม่น้อยกว่า 1,200 A 61 kA",
+          "code": "1040070201"
+        },
+        {
+          "item": 2,
+          "size": "ขนาดไม่น้อยกว่า 2,000 A 100 kA",
+          "code": "1040070202"
+        }
+      ],
+      "usage": "ใช้เป็นสวิตช์ตัดตอนได้ ขณะมีโหลด (Load Break Switch สามารถตัดกระแสโหลดได้)",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "โหลดเบรกสวิตช์",
+        "LBS",
+        "load break switch",
+        "115 kV",
+        "1200A",
+        "2000A",
+        "1040070201",
+        "1040070202",
+        "ตัดโหลด"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p100.jpg",
+      "fullPageImg": "app_data/pages/page_100.jpg",
+      "categoryName": "หมวดอุปกรณ์ป้องกัน และสวิตช์",
+      "categoryNameEn": "Protection & Switches"
+    },
+    {
+      "id": "mat-101",
+      "page": 101,
+      "catId": 8,
+      "thaiName": "115 kV เซอร์กิตสวิตช์เชอร์ พร้อมอุปกรณ์ประกอบ",
+      "engName": "115 kV CIRCUIT SWITCHER COMP. WITH ACCESSORIES",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "115 kV พร้อมอุปกรณ์ประกอบครบชุด",
+          "code": "1040090500"
+        }
+      ],
+      "usage": "ใช้เป็นอุปกรณ์ป้องกัน ติดตั้งในไลน์สายส่ง เฉพาะวงจรไฟฟ้าแบบเรเดียลเท่านั้น สำหรับอุปกรณ์ต่างๆ ทั้งระบบแรงต่ำและระบบสื่อสาร ให้ดูในแบบสำหรับการก่อสร้างที่เกี่ยวข้อง",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "เซอร์กิตสวิตช์เชอร์",
+        "circuit switcher",
+        "115 kV",
+        "1040090500",
+        "ป้องกันสายส่ง",
+        "เรเดียล"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p101.jpg",
+      "fullPageImg": "app_data/pages/page_101.jpg",
+      "categoryName": "หมวดอุปกรณ์ป้องกัน และสวิตช์",
+      "categoryNameEn": "Protection & Switches"
+    },
+    {
+      "id": "mat-103",
+      "page": 103,
+      "catId": 9,
+      "thaiName": "สาย OPGW ขนาดเส้นผ่านศูนย์กลางไม่เกิน 14 มม. ใยแก้ว 24 แกน",
+      "engName": "OPGW WIRE, OD <= 14 mm, COMP. WITH OPTICAL FIBER CABLE 24 CORES, SHORT CIRCUIT >= 100 kA2.SEC",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "OD <= 14 มม. 24 แกน ช็อตเซอร์กิต >= 100 kA2.s",
+          "code": "1010100100"
+        }
+      ],
+      "usage": "ใช้สำหรับเป็นสายล่อฟ้าและสายนำสัญญาณระบบสื่อสาร ติดตั้งอยู่เส้นบนสุดของเสาไฟฟ้า",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "OPGW",
+        "optical fiber",
+        "24 cores",
+        "สายล่อฟ้าสื่อสาร",
+        "1010100100",
+        "ใยแก้วนำแสง"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p103.jpg",
+      "fullPageImg": "app_data/pages/page_103.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-104",
+      "page": 104,
+      "catId": 9,
+      "thaiName": "ชุดปรีฟอร์มอาร์เมอร์กริพ สำหรับสาย OPGW",
+      "engName": "SUSPENSION, ARMOR-GRIP, PREFORMED, FOR OPGW, OD <= 14 mm, INSTALL WITH BAYONET",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "OD <= 14 มม. ติดตั้งที่เหล็กฉากรับสายล่อฟ้า",
+          "code": "1020230004"
+        }
+      ],
+      "usage": "ใช้จับยึดสาย OPGW แขวนเข้ากับเหล็กรับสาย OPGW",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "อาร์เมอร์กริพ OPGW",
+        "armor grip opgw",
+        "preformed suspension",
+        "1020230004",
+        "bayonet"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p104.jpg",
+      "fullPageImg": "app_data/pages/page_104.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-105",
+      "page": 105,
+      "catId": 9,
+      "thaiName": "พี.จี. คอนเนคเตอร์ 3 สลัก สำหรับสาย AL, AAL, ACSR 70-185 ตร.มม.",
+      "engName": "CONNECTOR, PARALLEL GROOVE, TRIPLE BOLT FOR AL, AAL AND ACSR, SIZE 70-185 mm2",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับสาย 70-185 ตร.มม. 3 สลัก",
+          "code": "1020300103"
+        }
+      ],
+      "usage": "ใช้จับเชื่อมสายระหว่างสาย OPGW กับสายล่อฟ้าภายในเสาไฟฟ้า",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "PG Clamp",
+        "พีจีคอนเนคเตอร์",
+        "parallel groove",
+        "triple bolt",
+        "70-185",
+        "1020300103",
+        "OPGW"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p105.jpg",
+      "fullPageImg": "app_data/pages/page_105.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-106",
+      "page": 106,
+      "catId": 9,
+      "thaiName": "กล่องต่อสาย OPGW",
+      "engName": "OPGW JOINT BOX",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "แบบ 2 ทาง",
+          "usageDesc": "ใช้เป็นจุดต่อสายช่วงทางตรงระหว่างสาย OPGW",
+          "code": "1010060026"
+        },
+        {
+          "item": 2,
+          "size": "แบบ 3 ทาง",
+          "usageDesc": "ใช้เป็นจุดต่อสายระหว่างสาย OPGW กับสายใยแก้วนำแสงเส้นอื่นๆ",
+          "code": "1010060027"
+        }
+      ],
+      "usage": "1. แบบ 2 ทาง ใช้เป็นจุดต่อสายช่วงทางตรงระหว่างสาย OPGW\n2. แบบ 3 ทาง ใช้เป็นจุดต่อสายระหว่างสาย OPGW กับสายใยแก้วนำแสงเส้นอื่นๆ",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "กล่องต่อสาย OPGW",
+        "joint box",
+        "opgw joint box",
+        "2 ทาง",
+        "3 ทาง",
+        "1010060026",
+        "1010060027"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p106.jpg",
+      "fullPageImg": "app_data/pages/page_106.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-107",
+      "page": 107,
+      "catId": 9,
+      "thaiName": "ชุดรองรับกล่องต่อสาย OPGW ขนาดเส้นผ่านศูนย์กลางไม่เกิน 14 มม.",
+      "engName": "SUPPORT, JOINT BOX, FOR OPGW, OD <= 14 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับ OPGW OD <= 14 มม.",
+          "code": "1010060024"
+        }
+      ],
+      "usage": "ใช้จับยึดกล่องต่อสาย OPGW เข้ากับเสาไฟฟ้า",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ชุดรองรับกล่องต่อสาย",
+        "joint box support",
+        "opgw",
+        "1010060024"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p107.jpg",
+      "fullPageImg": "app_data/pages/page_107.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-108",
+      "page": 108,
+      "catId": 9,
+      "thaiName": "ชุดรองรับการม้วนสาย OPGW ขนาดเส้นผ่านศูนย์กลางไม่เกิน 14 มม.",
+      "engName": "BRACKET, FOR OPGW, OD <= 14 mm COIL",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับ OPGW OD <= 14 มม.",
+          "code": "1010060025"
+        }
+      ],
+      "usage": "ใช้สำหรับรองรับการม้วนสาย OPGW ที่เดินมาจากยอดเสาไฟฟ้า ก่อนเข้ากล่องต่อสาย OPGW",
+      "storage": "ลานกลางแจ้ง",
+      "tags": [
+        "ชุดม้วนสาย OPGW",
+        "opgw coil bracket",
+        "ม้วนสาย",
+        "1010060025"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p108.jpg",
+      "fullPageImg": "app_data/pages/page_108.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-109",
+      "page": 109,
+      "catId": 9,
+      "thaiName": "แคลมป์สลัก 3 ตัว สำหรับสาย OPGW OD <= 14 มม. สำหรับเสาคอนกรีต",
+      "engName": "CLAMP, TRIPLE BOLTS, FOR OPGW, OD <= 14 mm, FOR CONCRETE POLE",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับ OPGW OD <= 14 มม. เสาคอนกรีต",
+          "code": "1020300303"
+        }
+      ],
+      "usage": "ใช้จับยึดสาย OPGW กับเสาไฟฟ้า โดยติดตั้งเป็นช่วงๆ จากยอดเสา มีระยะทางการจับยึดประมาณ 1.20 ม.",
+      "storage": "คลังในร่ม (คลังทึบ)",
+      "tags": [
+        "แคลมป์ร้อยสาย OPGW",
+        "opgw clamp triple bolts",
+        "downlead clamp",
+        "1020300303"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p109.jpg",
+      "fullPageImg": "app_data/pages/page_109.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-110",
+      "page": 110,
+      "catId": 9,
+      "thaiName": "ไวเบรชั่นแดมเปอร์ สำหรับสาย OPGW OD <= 14 มม. (แบบสต๊อกบริดจ์)",
+      "engName": "VIBRATION DAMPER (STOCKBRIDGE TYPE), FOR OPGW, OD <= 14 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สต๊อกบริดจ์ สำหรับสาย OPGW OD <= 14 มม.",
+          "code": "-"
+        }
+      ],
+      "usage": "ใช้ติดตั้งบนสาย OPGW เพื่อป้องกันสายขาดที่จุดจับยึดจากการแกว่งเนื่องจากแรงลม หรืออื่นๆ",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ไวเบรชั่นแดมเปอร์ OPGW",
+        "stockbridge damper",
+        "opgw damper",
+        "กันสั่น"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p110.jpg",
+      "fullPageImg": "app_data/pages/page_110.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    },
+    {
+      "id": "mat-111",
+      "page": 111,
+      "catId": 9,
+      "thaiName": "ชุดปรีฟอร์มเข้าปลายสาย สำหรับสาย OPGW OD <= 14 มม.",
+      "engName": "DEAD-END, PREFORMED, FOR OPGW, OD <= 14 mm",
+      "specTable": [
+        {
+          "item": 1,
+          "size": "สำหรับสาย OPGW OD <= 14 มม.",
+          "code": "1020250300"
+        }
+      ],
+      "usage": "ใช้ติดตั้งเข้าปลายสาย OPGW ที่เสาต้นเข้าปลายสาย",
+      "storage": "คลังในร่ม (คลังโปร่ง/ทึบ)",
+      "tags": [
+        "ปรีฟอร์มเข้าปลายสาย OPGW",
+        "opgw dead-end",
+        "preformed",
+        "1020250300",
+        "เข้าปลายสาย"
+      ],
+      "imageThumb": "app_data/item_thumbs/item_p111.jpg",
+      "fullPageImg": "app_data/pages/page_111.jpg",
+      "categoryName": "หมวดสาย OPGW และอุปกรณ์ประกอบ",
+      "categoryNameEn": "OPGW Cables & Accessories"
+    }
+  ]
+}
